@@ -25,89 +25,73 @@
     "unsubscribe_keyword": "UNSUBSCRIBE"
   },
   "sources": {
-    "github": [
-      {
-        "type": "user_events",
-        "username": "torvalds",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "owner": "astral-sh",
-        "repo": "uv",
-        "enabled": true
-      }
-    ],
+    "github": [],
     "hackernews": {
-      "enabled": true,
-      "fetch_top_stories": 20,
-      "min_score": 100
+      "enabled": false,
+      "fetch_top_stories": 0,
+      "min_score": 0
     },
     "rss": [
       {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
+        "name": "IGN Games",
+        "url": "http://feeds.feedburner.com/ign/games-all",
         "enabled": true,
-        "category": "ai-tools"
+        "category": "games"
       },
       {
-        "name": "LWN.net (subscriber full-text)",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
-        "category": "linux"
+        "name": "GameSpot Game News",
+        "url": "https://www.gamespot.com/feeds/game-news/",
+        "enabled": true,
+        "category": "games"
+      },
+      {
+        "name": "Eurogamer News",
+        "url": "https://www.eurogamer.net/feed/news",
+        "enabled": true,
+        "category": "games"
+      },
+      {
+        "name": "Kotaku via Google News",
+        "url": "https://news.google.com/rss/search?q=site%3Akotaku.com%20games%20OR%20gaming&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "games"
+      },
+      {
+        "name": "Video Games Chronicle",
+        "url": "https://www.videogameschronicle.com/feed/",
+        "enabled": true,
+        "category": "games"
+      },
+      {
+        "name": "GameWith via Google News",
+        "url": "https://news.google.com/rss/search?q=site%3Agamewith.jp%20%E3%82%B2%E3%83%BC%E3%83%A0&hl=ja&gl=JP&ceid=JP:ja",
+        "enabled": true,
+        "category": "games"
+      },
+      {
+        "name": "Famitsu via Google News",
+        "url": "https://news.google.com/rss/search?q=site%3Afamitsu.com%20%E3%82%B2%E3%83%BC%E3%83%A0&hl=ja&gl=JP&ceid=JP:ja",
+        "enabled": true,
+        "category": "games"
       }
     ],
     "reddit": {
       "enabled": false,
-      "subreddits": [
-        {
-          "subreddit": "LocalLLaMA",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 10
-        },
-        {
-          "subreddit": "MachineLearning",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 50
-        }
-      ],
-      "users": [
-        {
-          "username": "iamthatis",
-          "enabled": true,
-          "sort": "new",
-          "fetch_limit": 10
-        }
-      ],
-      "fetch_comments": 5
+      "subreddits": [],
+      "users": [],
+      "fetch_comments": 0
     },
     "telegram": {
-      "enabled": true,
-      "channels": [
-        {
-          "channel": "zaihuapd",
-          "enabled": true,
-          "fetch_limit": 20
-        }
-      ]
+      "enabled": false,
+      "channels": []
     },
     "ossinsight": {
       "enabled": false,
       "period": "past_24_hours",
-      "languages": [
-        "All",
-        "Python",
-        "TypeScript"
-      ],
+      "languages": [],
       "keywords": [],
-      "min_stars": 10,
-      "max_items": 30
+      "min_stars": 0,
+      "max_items": 0
     }
   },
   "filtering": {
