@@ -5,458 +5,434 @@ date: 2026-05-23
 lang: zh
 ---
 
-> From 47 items, 21 important content pieces were selected
+> From 42 items, 20 important content pieces were selected
 
 ---
 
-1. [Cloudflare 全球宕机 25 分钟，影响 28% HTTP 流量](#item-1) ⭐️ 9.0/10
-2. [苹果开源 corecrypto 并形式化验证量子安全算法](#item-2) ⭐️ 9.0/10
-3. [日本企业为何广泛多元化](#item-3) ⭐️ 8.0/10
-4. [Anthropic Glasswing 更新：90.6% 真阳性率](#item-4) ⭐️ 8.0/10
-5. [睡眠呼吸暂停新药有望取代 CPAP 治疗](#item-5) ⭐️ 8.0/10
-6. [AI 驱动的 HBM 需求推高消费电子产品价格](#item-6) ⭐️ 8.0/10
-7. [字节跳动开源 3B 多模态模型 Lance](#item-7) ⭐️ 8.0/10
-8. [中国八部门联手整治非法跨境证券交易](#item-8) ⭐️ 8.0/10
-9. [腾讯收购喜马拉雅获批，放弃音频独家版权](#item-9) ⭐️ 8.0/10
-10. [向乌干达难民营寄送笔记本电脑的官僚障碍](#item-10) ⭐️ 7.0/10
-11. [微软取消 Claude Code 许可证，推广 Copilot CLI](#item-11) ⭐️ 7.0/10
-12. [CISA 数据泄露引发国会质询](#item-12) ⭐️ 7.0/10
-13. [Antigravity 2.0 在 OpenSCAD 架构 3D LLM 基准测试中领先](#item-13) ⭐️ 7.0/10
-14. [开源看板应用，每张卡运行并行 AI 代理](#item-14) ⭐️ 7.0/10
-15. [Datasette Agent：用于数据查询的对话式 AI 助手](#item-15) ⭐️ 7.0/10
-16. [智谱推出 GLM-5.1 高速版，输出速度达 400 tokens/s](#item-16) ⭐️ 7.0/10
-17. [微软内部大规模推广 Claude Code，要求与 Copilot 对比使用](#item-17) ⭐️ 7.0/10
-18. [uv 0.11.16 发布，支持 Git 归档依赖和审计预览功能](#item-18) ⭐️ 6.0/10
-19. [Deno 2.8 发布，新增 'deno pack' 命令](#item-19) ⭐️ 6.0/10
-20. [受 Forth 启发的网站构建语言发布](#item-20) ⭐️ 6.0/10
-21. [FTC 对 Cox Media Group 虚假 AI 监听服务罚款](#item-21) ⭐️ 6.0/10
+1. [从芯片照片拆解 80386 微码](#item-1) ⭐️ 9.0/10
+2. [AI 在 Glasswing 项目中找出逾万高危漏洞](#item-2) ⭐️ 9.0/10
+3. [苹果开源 corecrypto 并提供量子安全算法形式化验证](#item-3) ⭐️ 9.0/10
+4. [向乌干达寄送笔记本电脑：腐败与教训](#item-4) ⭐️ 8.0/10
+5. [日本企业多元化：终身雇佣与员工治理](#item-5) ⭐️ 8.0/10
+6. [微软取消 Claude Code 许可，力推 Copilot CLI](#item-6) ⭐️ 8.0/10
+7. [AI 对 HBM 的需求挤压消费级内存，推高价格](#item-7) ⭐️ 8.0/10
+8. [FTC 对 Cox Media Group 虚假“主动监听”AI 服务罚款近百万美元](#item-8) ⭐️ 8.0/10
+9. [Datasette Agent: LLM 驱动的数据探索 AI 助手](#item-9) ⭐️ 8.0/10
+10. [腾讯收购喜马拉雅获批，附加放弃独家版权条件](#item-10) ⭐️ 8.0/10
+11. [中国八部门整治非法跨境证券经营](#item-11) ⭐️ 8.0/10
+12. [Cloudflare 故障影响 28% HTTP 流量，持续 25 分钟](#item-12) ⭐️ 8.0/10
+13. [微软内部推广 Claude Code，鼓励非技术员工使用](#item-13) ⭐️ 8.0/10
+14. [微软披露 OpenAI 单季亏损 115 亿美元](#item-14) ⭐️ 8.0/10
+15. [BambuStudio 被指控违反 PrusaSlicer 的 AGPL 许可证](#item-15) ⭐️ 7.0/10
+16. [李彦宏：AI 大模型已近应用爆发点](#item-16) ⭐️ 7.0/10
+17. [海盗船采用长鑫存储 DRAM，DDR5 价格有望下调](#item-17) ⭐️ 7.0/10
+18. [我国日均词元调用量两年增超千倍，2025 年 3 月突破 140 万亿](#item-18) ⭐️ 7.0/10
+19. [深入探讨 HTML <dl>元素的语义](#item-19) ⭐️ 6.0/10
+20. [Rubish：用纯 Ruby 编写的 Unix shell](#item-20) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Cloudflare 全球宕机 25 分钟，影响 28% HTTP 流量](https://t.me/zaihuapd/41527) ⭐️ 9.0/10
+## [从芯片照片拆解 80386 微码](https://www.reenigne.org/blog/80386-microcode-disassembled/) ⭐️ 9.0/10
 
-2025 年 12 月 5 日，Cloudflare 全球网络发生 25 分钟宕机，约 28% 的 HTTP 流量受影响，起因是为 Next.js 漏洞 CVE-2025-55182（React2Shell）部署的有缺陷的 WAF 补丁。 此次宕机影响重大，因为 Cloudflare 是主要的 CDN 和安全提供商，故障干扰了相当一部分网络流量。这凸显了快速安全补丁的风险，以及像 Next.js 这样的广泛使用框架中漏洞的连锁影响。 宕机主要影响使用旧版 FL1 代理并启用了 Cloudflare 托管规则集的客户。有缺陷的规则是针对 CVE-2025-55182 的应急响应的一部分，该漏洞是 React Server Components 和 Next.js 中的关键未认证远程代码执行漏洞。
+一位逆向工程师通过高分辨率芯片照片成功拆解了 Intel 80386 处理器的微码，揭示了其内部控制逻辑和微指令。 这项逆向工程为最具影响力的 x86 处理器之一的微架构提供了罕见的详细洞察，对计算机体系结构研究和复古计算爱好者有益。 拆解过程包括从晶体管级图像中识别微码 ROM 布局和解码微指令格式，对于这款 32 位处理器的内部状态机来说是一项复杂的任务。
 
-telegram · zaihuapd · May 22, 16:15
+hackernews · nand2mario · May 23, 12:11 · [社区讨论](https://news.ycombinator.com/item?id=48247004)
 
-**背景**: Cloudflare 运营着全球最大的 CDN 之一。FL1 代理是其旧版代理基础设施，正逐步被基于 Rust 的新版本（FL2）取代。CVE-2025-55182（React2Shell）是 React Server Components 和 Next.js 中的一个关键漏洞，可被利用进行远程代码执行，促使整个生态紧急修复。旨在缓解该漏洞的有缺陷的 WAF 规则意外导致了此次宕机。
+**背景**: 微码是 CPU 中实现高级机器指令的底层指令层。Intel 80386 于 1985 年发布，是标志性的 32 位处理器，奠定了 x86 架构。芯片摄影使逆向工程师能够检查晶体管的物理布局，并重构存储在 ROM 中的微码。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/">Defending against the CVE-2025-55182 (React2Shell) vulnerability in React Server Components | Microsoft Security Blog</a></li>
-<li><a href="https://unit42.paloaltonetworks.com/cve-2025-55182-react-and-cve-2025-66478-next/">Exploitation of Critical Vulnerability in React Server Components (Updated December 12)</a></li>
-<li><a href="https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182">React2Shell (CVE-2025-55182): Critical React Vulnerability | Wiz Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microcode">Microcode - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Intel_Microcode">Intel microcode - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Cloudflare`, `#outage`, `#CDN`, `#Next.js`, `#security`
+**社区讨论**: 社区对这项技术的难度和成果表示赞赏。一些用户询问从芯片图像提取微码的过程，而另一些用户分享了微编程书籍和 nand2tetris 课程等教育资源。
+
+**标签**: `#reverse engineering`, `#microcode`, `#x86`, `#computer architecture`, `#Intel 80386`
 
 ---
 
 <a id="item-2"></a>
-## [苹果开源 corecrypto 并形式化验证量子安全算法](https://security.apple.com/blog/formal-verification-corecrypto/) ⭐️ 9.0/10
+## [AI 在 Glasswing 项目中找出逾万高危漏洞](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 9.0/10
 
-5 月 22 日，苹果发布了 corecrypto 密码库的源代码，其中包含了 ML-KEM 和 ML-DSA 算法的实现，并附有端到端的形式化验证证明。这些证明在数学上确保了 C 代码和手工优化的 ARM64 汇编与 NIST 标准完全一致。 这是一个具有里程碑意义的举措，因为 corecrypto 已部署在超过 25 亿台苹果设备上，为实用后量子安全奠定了基础。通过开源代码和形式化证明，苹果为加密实现的透明性和可靠性树立了新标杆，可能影响整个行业。 此次发布不仅包括 corecrypto 源代码，还提供了定制的验证工具和 Isabelle 理论库，供独立安全专家审阅证明。形式化验证涵盖了 C 代码和 ARM64 汇编，在多个层面确保了正确性。
+Anthropic 公布了 Project Glasswing 的初期成果，其 Claude Mythos Preview 模型与 50 多个合作伙伴合作，在一个月内从关键软件中发现了超过 1 万个高危或严重漏洞，漏洞发现速率相比传统方法提高了十倍以上。 这一突破将瓶颈从漏洞发现转移到了验证、披露和修补上，暴露了关键的人力缺口。随着 AI 驱动的漏洞检测越来越普及，软件行业必须缩短补丁周期，以应对快速增加的风险。 AI 扫描了数千个开源项目，识别出 6202 个高危漏洞，其中 1752 个经过审查，真阳性率为 90.6%。包括 Cloudflare 在内的合作伙伴报告漏洞发现速度提高了十倍。然而，开源维护者请求放慢报告速度，因为验证和修补工作负担过重。
 
-telegram · zaihuapd · May 23, 04:49
+telegram · zaihuapd · May 23, 03:16
 
-**背景**: corecrypto 是苹果操作系统底层的密码学库，为 Security 框架、CryptoKit 和 CommonCrypto 提供基础密码原语。形式化验证利用数学推理（如使用 Isabelle 定理证明器）来证明代码符合其规格，从而消除整类错误。ML-KEM（模块格密钥封装机制）和 ML-DSA（模块格数字签名算法）是 NIST 最近标准化的后量子算法，旨在抵御未来量子计算机的攻击。
+**背景**: Project Glasswing 是 Anthropic 的一项防御性网络安全计划，利用名为 Claude Mythos Preview 的新型前沿模型，该模型在代码分析和漏洞发现方面展现出卓越能力。传统的漏洞发现依赖人工审计或静态分析工具，常常遗漏细微或复杂的漏洞。像 Claude Mythos 这样的 AI 模型能够大规模分析代码，发现人类专家可能忽视的漏洞，有可能改变安全领域格局。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://security.apple.com/blog/formal-verification-corecrypto/">A blueprint for formal verification of Apple corecrypto - Apple Security Research</a></li>
-<li><a href="https://github.com/apple/corecrypto">GitHub - apple/corecrypto: Apple corecrypto · GitHub</a></li>
+<li><a href="https://www.anthropic.com/glasswing">Project Glasswing : Securing critical software for the AI era \ Anthropic</a></li>
+<li><a href="https://red.anthropic.com/2026/mythos-preview/">Claude Mythos Preview \ red.anthropic.com</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI安全`, `#漏洞发现`, `#网络安全`, `#Anthropic`
+
+---
+
+<a id="item-3"></a>
+## [苹果开源 corecrypto 并提供量子安全算法形式化验证](https://security.apple.com/blog/formal-verification-corecrypto/) ⭐️ 9.0/10
+
+5 月 22 日，苹果开源了 corecrypto 密码库，其中包含 ML-KEM 和 ML-DSA 算法的实现，并附有端到端的形式化验证证明，确保 C 代码和 ARM64 汇编代码与 NIST 标准严格一致。 这是后量子密码学的重要一步，因为 corecrypto 为超过 25 亿台 Apple 设备提供基础加密运算，而形式化验证为量子安全实现的正确性提供了前所未有的保证，可能影响行业采用类似的验证实践。 苹果还公开了验证工具和 Isabelle 理论库，供独立专家评估。已验证的算法包括 ML-KEM（密钥封装机制）和 ML-DSA（数字签名算法），两者均于 2024 年由 NIST 标准化。
+
+telegram · zaihuapd · May 23, 04:49
+
+**背景**: 量子计算机对当前公钥密码学构成威胁，因为 RSA 和 ECC 等算法可能被 Shor 算法破解。为此，NIST 标准化了后量子算法：用于密钥交换的 ML-KEM（FIPS 203）和用于数字签名的 ML-DSA（FIPS 204），两者均基于格密码。形式化验证使用 Isabelle 等定理证明器从数学上证明代码符合其规范，提供比传统测试更强的保证。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ML-KEM">ML-KEM - Wikipedia</a></li>
+<li><a href="https://www.digicert.com/insights/post-quantum-cryptography/mldsa">ML-DSA | Post-Quantum Cryptography | DigiCert Insights</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)">Isabelle (proof assistant) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#cryptography`, `#formal verification`, `#quantum-safe`, `#Apple`, `#open source`
-
----
-
-<a id="item-3"></a>
-## [日本企业为何广泛多元化](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 8.0/10
-
-文章《日本企业为何从事如此多不同业务》解释了日本企业的广泛多元化源于终身雇佣制和公司特定技能，这促使公司内部保留和重新部署员工，而非裁员。 这一分析挑战了西方对公司专注和股东价值的强调，提供了对优先考虑员工稳定性的替代组织模式的更深入理解。它为全球商业战略和日本多元化持续存在提供了宝贵背景。 关键细节包括：该系统仅在公司不受外部股东压力影响时有效，且终身雇佣制虽非普遍，但在日本大企业中仍具影响力。文章还指出，西方公司历史上比现在更多元化。
-
-hackernews · d0ks · May 22, 15:22 · [社区讨论](https://news.ycombinator.com/item?id=48237163)
-
-**背景**: 日本的终身雇佣制是指员工毕业后加入一家公司并工作至退休的做法，常见于大企业。公司特定技能是仅在该公司内具有价值的知识和能力，这使得员工流动性降低。这些特点促使公司大力投资员工培训，并通过多元化在经济低迷时期留住员工。然而，这种制度也降低了劳动力市场的流动性，并可能给中期职业雇员带来挑战。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.bls.gov/opub/mlr/1984/08/rpt4full.pdf">Lifetime employment in Japan : three models of the concept</a></li>
-<li><a href="https://www.researchgate.net/publication/271739231_Occupational_Human_Capital_and_Wages_The_Role_of_Skills_Transferability_Across_Occupations">(PDF) Occupational Human Capital and Wages: The Role of Skills ...</a></li>
-<li><a href="https://www.academia.edu/114823487/Shukko_in_Japanese_companies_and_its_economic_and_managerial_effects">(PDF) Shukko in Japanese companies and its economic and...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者提供了不同观点：jdw64 警告不要西方对日本的理想化，而 BJones12 强调了文章关于员工经营公司的核心洞察。stymaar 指出西方公司过去也更倾向多元化，unsignedint 则指出了日本低工作流动性的弊端。
-
-**标签**: `#Japanese business`, `#corporate strategy`, `#diversification`, `#organizational culture`, `#HN discussion`
+**标签**: `#密码学`, `#形式化验证`, `#量子安全`, `#苹果`, `#开源`
 
 ---
 
 <a id="item-4"></a>
-## [Anthropic Glasswing 更新：90.6% 真阳性率](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 8.0/10
+## [向乌干达寄送笔记本电脑：腐败与教训](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 8.0/10
 
-Anthropic 发布了 Project Glasswing 的进展更新，报告其 Claude Mythos Preview AI 模型在漏洞检测中实现了 90.6% 的真阳性率和 62.4% 的高/严重等级发现，并得到了六家独立安全研究公司的验证。 这表明先进的 AI 可以显著提升软件漏洞检测能力，可能使代码库变得更加安全。它可能推动行业实践转向依赖 AI 辅助代码审查，尤其是在关键基础设施领域。 该模型识别出 1,752 个高或严重性漏洞，其中 90.6%（1,587 个）被确认为真阳性，62.4%（1,094 个）被评为高或严重。验证由六家独立安全公司或在少数情况下由 Anthropic 自己完成。
+作者讲述了在尝试向乌干达的一个难民营寄送笔记本电脑时遭遇的极端困难和系统性腐败，包括高昂的税费和官僚障碍。 这个故事揭示了阻碍向发展中地区运送援助和个人物品的破碎物流和腐败问题，影响了人道主义努力和个人。 作者尝试了 DHL 和乌干达邮政等多个承运商，遭遇索贿，最终通过一个被称为“灰色市场”经纪人的本地货运代理成功寄送。
 
-hackernews · louiereederson · May 22, 19:31 · [社区讨论](https://news.ycombinator.com/item?id=48240419)
+hackernews · lexandstuff · May 22, 21:36 · [社区讨论](https://news.ycombinator.com/item?id=48241997)
 
-**背景**: Project Glasswing 是 Anthropic 的一个计划，旨在将 AI 部署于网络安全，Claude Mythos Preview 是其专门的漏洞检测模型。传统静态分析工具能发现常见问题，但常遗漏更复杂或依赖上下文的漏洞。像 Claude 这样的 LLM 可以整体分析代码，发现基于规则的工具所忽略的细微缺陷。该项目包括为参与者提供 1 亿美元模型使用积分的承诺。
+**背景**: 由于高额进口关税、腐败和不可靠的邮政系统，向许多非洲国家寄送电子产品是出了名的困难。许多外籍人士和当地人依赖非正式的货运代理，这些代理利用航空旅客的行李额度运输货物，绕过官方渠道。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.anthropic.com/glasswing">Project Glasswing : Securing critical software for the AI era \ Anthropic</a></li>
-<li><a href="https://stable-learn.com/en/anthropic-glasswing-project/">Anthropic Drops a 'Nuclear Bomb': AI Vulnerability Detection ...</a></li>
+**社区讨论**: 评论者大多同意作者的评估，许多乌干达人证实了系统性腐败的存在。他们建议使用灰色市场货运代理或在旅行时亲自携带物品，并批评作者最初假设西方运输方法会有效的想法。
 
-</ul>
-</details>
-
-**社区讨论**: 用户 mdeeks 称赞 Codex Security（可能与 Mythos 相关）准确率很高（约 90%）且不可或缺。但 curl 维护者 Daniel Steinberg 表示怀疑，称未见证据表明其比现有工具有显著改进。其他人则讨论了与静态分析相比的成本效益。
-
-**标签**: `#AI`, `#security`, `#vulnerability detection`, `#Anthropic`, `#code analysis`
+**标签**: `#logistics`, `#Uganda`, `#corruption`, `#aid`, `#practical lessons`
 
 ---
 
 <a id="item-5"></a>
-## [睡眠呼吸暂停新药有望取代 CPAP 治疗](https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug) ⭐️ 8.0/10
+## [日本企业多元化：终身雇佣与员工治理](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 8.0/10
 
-研究人员基于数十年的睡眠研究，开发出一种治疗睡眠呼吸暂停的新药，可能成为 CPAP 疗法之外的选择。 若获批准，这款新药将为数百万难以坚持使用 CPAP 的睡眠呼吸暂停患者带来福音，并降低未经治疗导致的长期健康风险。 据报道，该药物可将呼吸暂停低通气指数（AHI）事件每小时减少约 4 次，可能更适合轻度患者；副作用和长期疗效仍在研究中。
+一篇文章指出，日本企业广泛多元化源于终身雇佣和员工主导的治理模式，企业更注重生存和员工利益而非股东价值。 这一分析挑战了西方以股东为中心的治理模式，提供了一个以员工为中心的治理驱动多元化和长期稳定的替代方案。 文章指出，拥有公司特定技能的终身员工不能被轻易解雇，而该系统只有在不受外部股东压力影响的情况下才能运作。
 
-hackernews · colinprince · May 22, 22:05 · [社区讨论](https://news.ycombinator.com/item?id=48242278)
+hackernews · d0ks · May 22, 15:22 · [社区讨论](https://news.ycombinator.com/item?id=48237163)
 
-**背景**: 睡眠呼吸暂停是一种睡眠中呼吸反复停止的疾病，通常使用提供加压空气的 CPAP 机治疗。但许多患者觉得 CPAP 不舒适而停止使用。针对潜在机制的新药可能显著改善治疗依从性。
+**背景**: 终身雇佣是一种日本实践，约 30-40%的工人实际上在一家公司终生受雇。员工主导的治理意味着公司由员工而非仅仅股东运营，注重长期生存。这与西方优先考虑股东价值和短期利润的模式形成对比。
 
-**社区讨论**: 评论者反应不一：有人对 CPAP 替代药物感到兴奋，而另一些人指出事件减少幅度不大（约 4 次/小时），可能仅有助于轻度患者。还有人分享了使用 CPAP 及姿势矫正等替代疗法的个人经验。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.bls.gov/opub/mlr/1984/08/rpt4full.pdf">Lifetime employment in Japan : three models of the concept</a></li>
+<li><a href="https://eprints.whiterose.ac.uk/id/eprint/43581/1/MatanleMatsuiEPJHRM2011_Deposit.pdf">Lifetime Employment in 21st Century Japan : Stability and Resilience...</a></li>
+<li><a href="https://www.nishimura.com/sites/default/files/articles/file/478.pdf">Corporate Governance and Directors' Duties in Japan: Overview</a></li>
 
-**标签**: `#sleep apnea`, `#drug research`, `#medical breakthrough`, `#health tech`, `#CPAP alternative`
+</ul>
+</details>
+
+**社区讨论**: 评论指出，这种体系导致职业流动性低，对中途求职者不利，同时一些人注意到西方公司过去也曾多元化。另一些人则警告不要美化日本模式，指出其社会和经济弊端。
+
+**标签**: `#Japanese business`, `#corporate strategy`, `#organizational culture`, `#economic systems`
 
 ---
 
 <a id="item-6"></a>
-## [AI 驱动的 HBM 需求推高消费电子产品价格](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
+## [微软取消 Claude Code 许可，力推 Copilot CLI](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad) ⭐️ 8.0/10
 
-内存制造商正将晶圆产能从 DDR 和 LPDDR 重新分配给 HBM，预计到 2026 年底 HBM 的份额将从 2%增至 20%。这一转变正在导致消费电子产品价格上涨，尤其是 100 美元以下的智能手机。 这一重新定价影响数十亿消费者，尤其在非洲和南亚等价格敏感市场，并标志着 AI 需求驱动的半导体行业结构性转变。 1GB HBM 消耗的晶圆产能是 1GB DDR 或 LPDDR 的三倍以上。内存公司有意限制制造产能以避免倒闭，进一步制约供应。
-
-rss · Simon Willison · May 22, 22:01
-
-**背景**: 内存芯片在硅晶圆上制造，每座晶圆厂的处理能力固定。高带宽内存（HBM）是一种 3D 堆叠 DRAM 技术，提供高数据带宽和低功耗，是 GPU 等 AI 加速器的关键组件。AI 数据中心的激增大幅提高了 HBM 需求，挤压了其他内存类型的晶圆分配。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://luna3.ai/what-is-hbm-memory">What Is HBM Memory ? The Bottleneck Behind Every AI Chip</a></li>
-<li><a href="https://www.linkedin.com/posts/techi_aichips-memoryshortage-hbm-activity-7419037939961323520-UqKt">AI Chip Demand Triggers Global Memory Shortage | LinkedIn</a></li>
-<li><a href="https://www.formfactor.com/blog/2026/high-bandwidth-memory-testing-why-early-test-strategies-are-critical-for-yield-cost-and-performance/">High-Bandwidth Memory Testing – Why Early Test Strategies Are...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#memory shortage`, `#AI`, `#consumer electronics`, `#hardware`, `#supply chain`
-
----
-
-<a id="item-7"></a>
-## [字节跳动开源 3B 多模态模型 Lance](https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A) ⭐️ 8.0/10
-
-字节跳动发布了轻量级多模态模型 Lance，激活参数量仅 3B，原生统一了图像和视频的理解与生成任务，能在一个框架内输出文本、图像和视频。 该模型以 Apache 2.0 许可证开源，大大降低了开发者和研究人员尝试统一多模态 AI 的门槛，可能加速内容创作和多模态理解领域的创新。 Lance 采用共享上下文与双流专家架构，分别使用 Qwen2.5-VL 和 Wan2.2 编码器处理理解与生成任务，并通过模态感知位置编码解决序列边界混淆。在图像生成基准 GenEval、视频生成基准 VBench 上取得了领先结果。
-
-telegram · zaihuapd · May 22, 06:40
-
-**背景**: 多模态 AI 模型通常需要分别处理理解和生成任务，或者需要大量参数。Lance 通过双流设计实现了统一，仅用 3B 激活参数，理解和生成共享上下文但使用专用编码器。Qwen2.5-VL 是用于理解的视觉语言模型，Wan2.2 是开源 MoE 视频生成模型。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit">Qwen -Image-Edit ComfyUI Native Workflow Example - ComfyUI</a></li>
-<li><a href="https://wan22.io/">Wan 2 . 2 - Open Source MoE Video Generation | Every Shot... | wan22.io</a></li>
-
-</ul>
-</details>
-
-**标签**: `#multimodal`, `#open-source`, `#ByteDance`, `#image generation`, `#video generation`
-
----
-
-<a id="item-8"></a>
-## [中国八部门联手整治非法跨境证券交易](https://mp.weixin.qq.com/s?__biz=MzA4NzAzMDgwMw==&amp;mid=2651090403&amp;idx=3&amp;sn=bca72a940ac72bef356f29b5b9576ac1&amp;chksm=8a1670281e2bc67d2df3608a313ba9fdaf0fcd2f43ce44475c6bf273b386af2e4f9d8e8e2e2b&amp;scene=0&amp;xtrack=1) ⭐️ 8.0/10
-
-中国八个政府部门联合印发整治方案，打击非法跨境证券、期货和基金经营，只允许存量投资者单向卖出并转出资金。证监会已对老虎、富途、长桥等机构未经许可跨境展业立案调查。 此次监管行动直接影响数百万使用境外交易平台的中国投资者，表明了对无牌跨境金融服务的坚决态度。同时，它引导投资者通过港股通、QDII 和跨境理财通等合法渠道进行境外投资，将影响中国资本账户开放的未来走向。 整治方案设定了两年集中整治期，期间仅允许存量投资者进行单向卖出和资金转出操作。期满后，所有相关境内网站、交易软件及配套服务器必须全面关停。证监会已对涉案机构作出行政处罚事先告知，拟没收全部违法所得并依法严厉处罚。
-
-telegram · zaihuapd · May 22, 08:26
-
-**背景**: 中国监管机构长期以来将境内投资者的跨境证券交易限制在港股通、合格境内机构投资者（QDII）基金和粤港澳大湾区跨境理财通等合法渠道内。这些机制在维持资本管制的同时，提供了有限的、受监管的境外市场准入。近年来，老虎证券、富途等平台通过提供美股和港股的直接交易渠道迅速崛起，绕开了现有规则，引发了监管层对投资者保护和资金流动监控的担忧。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://zh.wikipedia.org/zh-cn/沪港通">沪港通 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://baike.baidu.com/item/港股通/13611865">港股通</a></li>
-<li><a href="https://zh.wikipedia.org/zh-sg/跨境理财通">跨境理财通 - 维基百科，自由的百科全书</a></li>
-
-</ul>
-</details>
-
-**标签**: `#regulation`, `#cross-border trading`, `#China`, `#fintech`, `#securities`
-
----
-
-<a id="item-9"></a>
-## [腾讯收购喜马拉雅获批，放弃音频独家版权](https://mp.weixin.qq.com/s/xnx31SOS6NMozZXnHeaaQg) ⭐️ 8.0/10
-
-国家市场监管总局批准了腾讯对喜马拉雅的收购，但要求腾讯解除所有在线音频独家版权协议。 这一决定可能打破在线音频市场的独家内容壁垒，促进竞争，方便用户跨平台收听。 腾讯需承诺不达成或变相达成任何新的独家授权协议，并限期解除现有独家合同。
-
-telegram · zaihuapd · May 22, 10:33
-
-**背景**: 喜马拉雅是中国最大的在线音频平台之一，拥有大量独家内容。腾讯此前已投资喜马拉雅，此次收购获批但附加反垄断条件，反映了中国对数字平台内容独占的监管收紧。
-
-**标签**: `#antitrust`, `#regulation`, `#audio streaming`, `#Tencent`, `#Ximalaya`
-
----
-
-<a id="item-10"></a>
-## [向乌干达难民营寄送笔记本电脑的官僚障碍](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 7.0/10
-
-作者讲述了向乌干达难民营的同事寄送笔记本电脑所经历的漫长、腐败且昂贵的过程，包括多次海关延误和索贿。 这个故事揭示了系统性低效和腐败如何阻碍向发展中国家地区运送必要的技术和援助，影响人道主义工作和当地经济。 笔记本电脑经过数月的努力最终送达，收件人 Django 在整个过程中始终保持感激和积极态度，凸显了他的坚韧。
-
-hackernews · lexandstuff · May 22, 21:36 · [社区讨论](https://news.ycombinator.com/item?id=48241997)
-
-**背景**: 向发展中国家运送电子产品通常涉及复杂的海关规定和非官方费用。许多外籍人士和援助工作者为了避免这些麻烦，选择随身携带物品，这是评论中提到的常见变通方法。
-
-**社区讨论**: 一位乌干达评论者证实了系统的问题，并批评作者没有先向当地人咨询的傲慢态度。其他人指出，随身携带物品通常是最可靠的方法，即使在发达国家，海关手续也可能很繁琐。
-
-**标签**: `#logistics`, `#corruption`, `#Africa`, `#humanitarian`, `#shipping`
-
----
-
-<a id="item-11"></a>
-## [微软取消 Claude Code 许可证，推广 Copilot CLI](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad) ⭐️ 7.0/10
-
-微软正在取消其开发者的大部分 Claude Code 许可证，生效日期为 6 月 30 日，并引导他们转向自家的 GitHub Copilot CLI 工具。 此举表明微软的战略转变，即推广自家 AI 编程工具而非 Anthropic 的 Claude Code 等第三方替代品，可能重塑开发者工具生态系统。 根据社区评论，该取消计划涉及去年 12 月启动的一个试点项目，该项目意外消耗了公司 2026 年 AI 年度目标预算。
+微软正在撤销开发者的 Claude Code 许可，并引导他们使用 GitHub Copilot CLI，这是一款命令行 AI 编码工具。 此举表明微软正战略性地推动自家 AI 编码助手 Copilot CLI 的采用，牺牲了受欢迎的竞争对手，可能限制开发者选择并引发反弹。 根据文章，微软最初向开发者提供两种工具用于比较，但开发者 overwhelmingly 偏好 Claude Code 而非 Copilot，导致许可被取消。
 
 hackernews · robertkarl · May 22, 17:32 · [社区讨论](https://news.ycombinator.com/item?id=48238896)
 
-**背景**: Claude Code 是 Anthropic 开发的 AI 编程助手，运行在终端中；而 GitHub Copilot CLI 是微软的命令行编程工具。两者都通过自然语言命令帮助开发者编写和管理代码。
+**背景**: Claude Code 是 Anthropic 开发的智能编码工具，可在终端中使用，理解代码库并自动化任务。GitHub Copilot CLI 是微软自家的命令行 AI 编码助手。两者都旨在帮助开发者更快编码，但 Claude Code 常被认为更有效。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-<li><a href="https://github.com/features/copilot/cli">GitHub Copilot CLI · GitHub</a></li>
+<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system</a></li>
+<li><a href="https://awesome-copilot.github.com/learning-hub/cli-for-beginners/">GitHub Copilot CLI for Beginners</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 开发者指出，Claude Code 在无监督使用时消耗令牌极快，但在人工参与时效率更高。有人质疑 AI 工具相比人力的成本效益。
+**社区讨论**: 评论者表达了沮丧，指出微软希望 Copilot 优于 Claude Code 的期望适得其反。一些人强调小心、有监督地使用 Claude Code 可以节省成本，而另一些人则批评 Copilot 在政府云环境中的糟糕表现。
 
-**标签**: `#Microsoft`, `#Claude Code`, `#Copilot CLI`, `#AI coding tools`, `#developer tools`
+**标签**: `#Microsoft`, `#Claude Code`, `#Copilot`, `#AI coding assistants`, `#developer tools`
+
+---
+
+<a id="item-7"></a>
+## [AI 对 HBM 的需求挤压消费级内存，推高价格](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
+
+AI 对 HBM 内存的激增需求预计将其晶圆分配比例从 2%提升至 2026 年底的 20%，挤压了 DDR 和 LPDDR 内存的生产，导致消费电子产品（尤其是 100 美元以下的智能手机）价格上涨。 这一转变凸显了 AI 基础设施与平价消费设备之间的结构性权衡，可能影响新兴市场依赖廉价智能手机的数十亿用户。内存厂商优先考虑高利润的 HBM 而非消费级 RAM，这一趋势可能持续数年。 每 GB HBM 消耗的晶圆容量是 DDR 或 LPDDR 的三倍以上。内存制造商从过去的行业整合中吸取教训，始终倾向于产能不足，进一步限制了供应。
+
+rss · Simon Willison · May 22, 22:01
+
+**背景**: HBM（高带宽内存）是一种 3D 堆叠 DRAM 技术，专为高速数据传输和低功耗而优化，对 GPU 和 AI 加速器至关重要。晶圆容量指晶圆厂能处理的硅晶圆数量，在不同内存类型间分配。DDR 和 LPDDR 分别是用于台式机/服务器和移动设备的标准内存类型。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="https://semiengineering.com/high-bandwidth-memory-hbm-everything-you-need-to-know/">High Bandwidth Memory (HBM): Everything You Need To Know</a></li>
+<li><a href="https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%-in-2024-and-7%-in-2025-semi-reports">Global Semiconductor Fab Capacity Projected to Expand 6% in ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#memory shortage`, `#AI`, `#consumer electronics`, `#semiconductors`, `#pricing`
+
+---
+
+<a id="item-8"></a>
+## [FTC 对 Cox Media Group 虚假“主动监听”AI 服务罚款近百万美元](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 8.0/10
+
+美国联邦贸易委员会宣布，Cox Media Group、MindSift 和 1010 Digital Works 将支付近 100 万美元，以和解关于其“主动监听”AI 服务虚假宣传的指控。该服务声称通过智能设备窃听对话来投放广告，但实际只是转售电子邮件列表并加价。 此案凸显了 FTC 对虚假 AI 营销和隐私声明日益严格的审查，开创了公司不得在 AI 监控能力上误导消费者的先例。同时也为驳斥智能手机利用麦克风进行广告定位的阴谋论提供了有力证据。 FTC 明确指出，在服务条款中隐藏的“选择加入”条款并不构成对此类侵入性行为的充分同意。此外，这些公司未能按承诺投放定向广告，而是转售数据经纪商提供的列表。
+
+rss · Simon Willison · May 22, 04:48
+
+**背景**: “主动监听”是一种有争议的营销技术，声称利用 AI 分析智能设备的实时语音数据进行广告定向。FTC 负责执行消费者保护法，打击欺骗性行为。此次和解确认该服务并未实际监听对话，揭穿了常见的阴谋论。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://thecyberexpress.com/ftc-ai-powered-active-listening-case/">AI-Powered Marketing Service “Active Listening” Deceived ...</a></li>
+<li><a href="https://www.newsweek.com/phone-voice-assistants-active-listening-consent-targeted-ads-1949251">Is Your Phone Really Listening to You? Here’s What We Know FTC: Cox Media Group and 2 others to pay nearly $1M over ... Is your phone listening? Marketing firm confirms tech behind ... Is Your Device Always Listening? How It Fuels Targeted Ads FTC: Cox Media Group Sold Bogus AI Ad Service, Now Must... Marketer that claimed it could tap devices for ad targeting ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#FTC`, `#AI`, `#privacy`, `#advertising`, `#enforcement`
+
+---
+
+<a id="item-9"></a>
+## [Datasette Agent: LLM 驱动的数据探索 AI 助手](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 8.0/10
+
+Simon Willison 宣布了 Datasette Agent 的首个版本，这是一个可扩展的 AI 助手，通过插件将大语言模型与 Datasette 集成，支持对话式数据查询和图表生成。 Datasette Agent 连接了大语言模型和结构化数据，使非技术用户更容易进行数据探索，并支持与 SQLite 数据库的自然语言交互。 实时演示使用 Gemini 3.1 Flash-Lite 进行廉价快速的推理，插件生态目前包括通过 Observable Plot 生成图表和通过 ChatGPT 生成图像。
+
+rss · Simon Willison · May 21, 19:52
+
+**背景**: Datasette 是一个开源工具，能将 SQLite 数据库发布为交互式网页界面和 JSON API。LLM 库是一个命令行工具和 Python 库，用于与各种大语言模型交互。Datasette Agent 将这两者结合，允许对数据进行自然语言查询。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://datasette.io/">Datasette: An open source multi-tool for exploring and ...</a></li>
+<li><a href="https://llm.datasette.io/">LLM: A CLI utility and Python library for interacting with Large Language Models</a></li>
+<li><a href="https://github.com/simonw/datasette">GitHub - simonw/datasette: An open source multi-tool for ... Datasette Review (2026) - MakerStack Introduction to Datasette, a Frontend to Tabulated Data Commodore Datasette - Wikipedia datasette · PyPI Datasette - skills.network</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Datasette`, `#LLM`, `#AI Assistant`, `#Data Exploration`, `#Python`
+
+---
+
+<a id="item-10"></a>
+## [腾讯收购喜马拉雅获批，附加放弃独家版权条件](https://mp.weixin.qq.com/s/xnx31SOS6NMozZXnHeaaQg) ⭐️ 8.0/10
+
+国家市场监管总局批准腾讯收购喜马拉雅，要求腾讯停止达成在线音频版权独家授权，并在限期内解除现有独家合同。 此举打破了喜马拉雅的内容垄断，可能重塑在线音频市场，让其他平台也能获取相同版权内容，促进竞争并方便用户跨平台收听。 腾讯不得达成或续签在线音频版权独家授权协议，并需在规定期限内解除所有现有独家合同。腾讯表示将配合解除独家合同，后续寻求非独家合作。
+
+telegram · zaihuapd · May 22, 10:33
+
+**背景**: 喜马拉雅是中国最大的在线音频平台，拥有庞大的有声书、播客和广播节目库。独家版权协议是其关键竞争优势，将内容锁定在喜马拉雅平台。腾讯的收购引发反垄断担忧，因为可能导致市场主导地位。
+
+**标签**: `#Tencent`, `#Ximalaya`, `#Antitrust`, `#Online Audio`, `#Regulation`
+
+---
+
+<a id="item-11"></a>
+## [中国八部门整治非法跨境证券经营](https://t.me/zaihuapd/41525) ⭐️ 8.0/10
+
+中国八部门联合发文整治非法跨境证券、期货、基金经营，要求存量投资者只能单向卖出资产并转出资金。证监会已对老虎证券、富途证券和长桥证券非法跨境展业立案调查。 这一监管行动对跨境投资平台及其用户产生重大影响，可能迫使许多金融科技公司停止在华服务。这标志着对资本外流和无牌金融活动采取更强硬立场，影响数百万使用这些平台的中国投资者。 方案设定了两年集中整治期，期间只允许存量投资者卖出资产并转出资金，期满后相关境内网站、交易软件和配套服务器须全面关停。整治对象包括境外机构、境内关联方以及提供开户通道和营销引流的信息平台。
+
+telegram · zaihuapd · May 22, 13:55
+
+**背景**: 老虎证券（TIGR）、富途控股（FUTU）和长桥证券是在线券商，允许中国居民交易全球股票和衍生品，但通常未获得中国监管机构的适当批准。中国证券法要求任何在中国境内招揽客户或执行交易的实体必须获得中国证监会许可。此次整治是在多年监管警告之后进行的，反映了北京控制跨境资本流动和保护投资者的努力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Futu">Futu - Wikipedia</a></li>
+<li><a href="https://www.futuholdings.com/en-us/profile">About Us | FUTU | Futu Holdings Limited 富途控股</a></li>
+<li><a href="https://grokipedia.com/page/Tiger_Brokers">Tiger Brokers</a></li>
+
+</ul>
+</details>
+
+**标签**: `#regulation`, `#cross-border investment`, `#China`, `#fintech`, `#securities`
 
 ---
 
 <a id="item-12"></a>
-## [CISA 数据泄露引发国会质询](https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/) ⭐️ 7.0/10
+## [Cloudflare 故障影响 28% HTTP 流量，持续 25 分钟](https://t.me/zaihuapd/41527) ⭐️ 8.0/10
 
-美国网络安全和基础设施安全局（CISA）正在试图控制一起数据泄露事件，起因是一名承包商将 GitHub 用作临时笔记工具，可能导致敏感信息外泄。议员们已要求就该事件及 CISA 的应对措施作出解释。 该事件突显了政府网络安全实践中的持续风险，特别是在承包商管理和数据处理方面。国会的关注可能导致更严格的监督和政策变化。 CISA 表示没有迹象表明敏感数据遭到泄露，但事件方式表明一名个人承包商将该存储库用于在机器之间同步工作。安全专家指出，这是一个技术控制无法单独解决的人为问题。
+2025 年 12 月 5 日，Cloudflare 全球网络发生 25 分钟故障，影响约 28% 的 HTTP 流量，原因是为修复 Next.js 中的 React Server Components 漏洞 CVE-2025-55182 而部署的修复存在缺陷。 此次故障影响了通过 Cloudflare 路由的相当一部分互联网流量，作为最大的内容分发网络之一，凸显了在关键基础设施上部署安全补丁的级联风险。 故障特别影响了使用旧版 FL1 代理并部署了 Cloudflare 托管规则集的客户，返回 HTTP 500 错误。根本原因是在修复 CVE 期间对执行动作规则集应用 killswitch 时触发了 Lua nil 指针错误。
 
-hackernews · speckx · May 22, 16:54 · [社区讨论](https://news.ycombinator.com/item?id=48238429)
+telegram · zaihuapd · May 22, 16:15
 
-**背景**: CISA 是美国负责网络安全和基础设施安全的联邦机构。政府承包商的数据泄露此前曾发生过，例如数百万份 SF-86 安全许可表格的泄露。将 GitHub 用作个人笔记工具违反了最佳实践，例如绝不将凭据或敏感数据提交到存储库。
+**背景**: Cloudflare 是一家主要的内容分发网络和安全服务提供商，处理全球大量网络流量。其 FL1 代理是一个较旧的请求处理层。CVE-2025-55182 是 React Server Components 中的一个严重预认证远程代码执行漏洞，影响版本 19.0.0 至 19.2.0。Cloudflare 的 Web 应用防火墙（WAF）规则包含托管规则集以阻止此类利用，但一个有缺陷的更新导致了此次故障。
 
-**社区讨论**: 评论者对 CISA 关于没有敏感数据泄露的保证表示怀疑，并提及了如 SF-86 事件等过去的泄漏。一些人质疑技术控制措施，并指出一个网络安全机构发生此类违规行为的讽刺性。其他人则强调了防止承包商使用此类变通方法的困难。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://blog.cloudflare.com/5-december-2025-outage/">Cloudflare outage on December 5, 2025</a></li>
+<li><a href="https://www.ascii.co.uk/news/article/news-20251208-71fe2ccb/cloudflare-25-minute-outage-lua-nil-bug-in-waf-rules-engine">Cloudflare 25-Minute Outage: Lua Nil Bug in WAF Rules Engine</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-55182">NVD - CVE-2025-55182</a></li>
 
-**标签**: `#cybersecurity`, `#data leak`, `#CISA`, `#infosec`, `#government`
+</ul>
+</details>
+
+**标签**: `#Cloudflare`, `#outage`, `#CVE-2025-55182`, `#Next.js`, `#WAF`
 
 ---
 
 <a id="item-13"></a>
-## [Antigravity 2.0 在 OpenSCAD 架构 3D LLM 基准测试中领先](https://modelrift.com/blog/openscad-llm-benchmark/) ⭐️ 7.0/10
+## [微软内部推广 Claude Code，鼓励非技术员工使用](https://t.me/zaihuapd/41535) ⭐️ 8.0/10
 
-Antigravity 2.0 在一个使用大型语言模型生成 OpenSCAD 架构 3D 模型的新基准测试中取得最高分，尤其在重现万神殿复杂内部细节方面表现出色。该基准测试评估基于 LLM 的代码生成在参数化 3D 建模中的表现。 该基准测试展示了 LLM 在生成功能性参数化 CAD 模型方面不断增长的能力，这可能降低建筑和工程领域 3D 建模的门槛。Antigravity 的表现凸显了 AI 辅助设计工具的潜力，但社区反馈也揭示了部署稳定性和模型可靠性方面的持续担忧。 该基准测试以万神殿为测试案例，要求模型生成包括内部天花藻井在内的整个结构的 OpenSCAD 代码。Antigravity 2.0 是唯一正确实现内部天花板图案的自主代理，而 Gemini 模型在图像理解和创造力方面表现突出，但有时缺乏 CAD 所需的精确性。
+微软正在其 CoreAI 团队以及负责 Windows、Microsoft 365 和 Outlook 的体验与设备部门中推广 Anthropic 的 Claude Code。软件工程师需同时使用 Claude Code 和 GitHub Copilot，并提供对比反馈。 此举标志着 AI 编程工具市场的竞争动态，并验证了 AI 编程助手对非技术员工的价值。同时，这也给微软自家的 GitHub Copilot 带来了压力，因为公司正在评估替代工具。 Claude Code 是一款可在终端或 IDE 中运行的 AI 编程代理，具备代码生成、重构和调试等功能。微软的推广对象包括没有编程经验的员工，鼓励他们使用 Claude Code 进行原型设计。
 
-hackernews · jetter · May 22, 10:38 · [社区讨论](https://news.ycombinator.com/item?id=48234090)
+telegram · zaihuapd · May 23, 06:05
 
-**背景**: OpenSCAD 是一款免费的基于脚本的 3D CAD 建模工具，使用自己的描述语言定义几何图元和操作。LLM 可以根据自然语言描述生成 OpenSCAD 代码，从而实现参数化设计的快速原型制作。Antigravity 2.0 是 Google 的 AI 编程助手，集成到 IDE 和 CLI 中，能够跨多种语言和领域生成代码。
+**背景**: Claude Code 是 Anthropic 开发的一款工具，利用 Claude 语言模型辅助编程任务，可在终端中使用或集成到 IDE。GitHub Copilot 由微软和 GitHub 开发，是一款通过自动补全代码来辅助编程的竞争产品。微软内部对两款工具进行评估，表明其愿意采用最佳解决方案，而非仅使用自家产品。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a></li>
-<li><a href="https://antigravity.google/blog/introducing-google-antigravity-2-0">Google Antigravity Blog: introducing-google- antigravity - 2 - 0</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论呈现褒贬不一的态度：一些用户报告了成功的实际应用，例如使用 Claude 生成的自行车部件几乎完美打印，而另一些用户则批评 Antigravity 的强制推送和更新问题。还有人质疑该基准测试的代表性，因为只专注于单一模型，用户指出 LLM 的性能在不同类型的 3D 模型之间差异很大。
-
-**标签**: `#LLM`, `#OpenSCAD`, `#3D Modeling`, `#Benchmark`, `#AI`
+**标签**: `#AI coding`, `#Microsoft`, `#Claude Code`, `#GitHub Copilot`, `#software engineering`
 
 ---
 
 <a id="item-14"></a>
-## [开源看板应用，每张卡运行并行 AI 代理](https://www.kanbots.dev/) ⭐️ 7.0/10
+## [微软披露 OpenAI 单季亏损 115 亿美元](https://t.me/zaihuapd/41537) ⭐️ 8.0/10
 
-Kanbots 是一款开源看板桌面应用，允许用户在每张卡片上运行并行 AI 代理，在可视化工作流中自动执行任务。 该工具将项目管理与 AI 自动化相结合，使开发者能够同时在多个任务上运行代理，可能加速开发流程，同时保持可视化监督。 Kanbots 是本地优先的，无需云依赖，将所有内容（SQLite 数据库、配置、工作树）存储在仓库旁的 .kanbots/ 目录中。它在每张卡片上并行运行代理，这与传统看板限制在制品数量的原则相悖。
+微软最新财报披露，其采用权益法核算对 OpenAI 约 27%的股权投资，导致单季度净利润减少 31 亿美元，据此推算 OpenAI 该季度净亏损约 115 亿美元。 这一披露凸显了在人工智能领域领先所需的巨大且持续的烧钱速度，对即使是头部 AI 企业的长期经济可持续性提出了质疑。 微软采用权益法计算：其持有 OpenAI 约 27%股权（按税前口径约 32.5%），暗示 OpenAI 税前单季亏损超过 120 亿美元。这一亏损规模是 OpenAI 今年上半年 43 亿美元营收的近三倍。
 
-hackernews · vitriapp · May 22, 18:17 · [社区讨论](https://news.ycombinator.com/item?id=48239413)
+telegram · zaihuapd · May 23, 07:40
 
-**背景**: 看板是一种源自丰田的视觉工作流管理方法，强调限制在制品数量和管理流程。AI 代理是能够自主执行代码生成或测试等任务的程序。将两者结合，可以直接从看板触发自动化操作。并行代理执行（多个代理同时在独立任务上运行）是 AI 自动化中的常见模式。
+**背景**: 权益法是一种会计方法，当投资方对被投资方具有重大影响（通常持股 20%-50%）时使用。根据该方法，投资方按持股比例确认被投资方的利润或亏损作为投资收益或损失，并相应调整长期股权投资的账面价值。此次披露揭示了 AI 领域所需的巨大投资规模，微软已向 OpenAI 承诺投入 130 亿美元。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/idea/multiple-agent-workflow-automation">Build a Multiple-Agent Workflow Automation Solution by using Microsoft Agent Framework - Azure Architecture Center | Microsoft Learn</a></li>
-<li><a href="https://typevar.dev/articles/BloopAI/vibe-kanban">agent - Bridging Human Intent and AI Execution with Terminal- Based ...</a></li>
-<li><a href="https://github.com/KingofPoly/Kanban-MCP">GitHub - KingofPoly/ Kanban -MCP: Kanban - based task management...</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/496165358">长期股权投资——权益法（干货总结） - 知乎</a></li>
+<li><a href="https://baike.baidu.com/item/权益法/9289851">权益法_百度百科 采用权益法核算的长期股权投资账务处理流程（附案例详解） 一文搞懂长期股权投资的核算方法：成本法、权益法和合并法 在阅读||#20998;... 权益法核算的长期股权投资收益_东奥会计在线 【老丁解税】权益法下投资收益的所得税处理解析 【老丁解税】权益法下投资收益的所得税处理解析|股权|纳税|权益性_网...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出 Kanbots 违背了限制在制品数量等核心看板原则（kesor）。其他人则对审查 AI 生成的代码输出提出了实际担忧（aitchnyu）。一些人将其与类似项目（如已停止维护的 Vibe Kanban）比较，引发了对可持续性的担忧（KerrickStaley）。还有关于为每个代理管理独立工作树基础设施的技术问题（nullbio）。
-
-**标签**: `#kanban`, `#agents`, `#open-source`, `#developer-tools`, `#AI`
+**标签**: `#Microsoft`, `#OpenAI`, `#financial loss`, `#AI`, `#investment`
 
 ---
 
 <a id="item-15"></a>
-## [Datasette Agent：用于数据查询的对话式 AI 助手](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 7.0/10
+## [BambuStudio 被指控违反 PrusaSlicer 的 AGPL 许可证](https://xcancel.com/josefprusa/status/2054602354851254330) ⭐️ 7.0/10
 
-Datasette Agent 是一个全新的、可扩展的 AI 助手，于 2026 年 5 月 21 日发布，它允许用户通过自然语言进行数据查询，并通过插件生成图表。 将大语言模型与 Datasette 集成，使非技术用户能够通过对话方式查询数据库，从而民主化数据分析；其插件架构还支持图表生成和图像生成等扩展任务。 在线演示使用 Gemini 3.1 Flash-Lite 模型，该模型廉价且快速，可从自然语言生成 SQL 查询；datasette-agent-charts 插件使用 Observable Plot 绘制图表。
+Prusa Research 创始人 Josef Prusa 公开指控 BambuStudio 在从 PrusaSlicer 分叉后未能遵守 AGPL 许可证的开源要求，构成侵权。 这一指控凸显了开源许可证在执行过程中的持续挑战，特别是在 3D 打印软件的二次开发中，同时引发了对知识产权保护和封闭源代码分支可能进行数据挖掘的担忧。 BambuStudio 是 PrusaSlicer 的专有分支，后者采用 AGPLv3 许可证，要求任何通过网络分发的修改版本也必须开源。被指控的违规行为包括未发布源代码修改以及可能包含数据挖掘功能。
 
-rss · Simon Willison · May 21, 19:52
+hackernews · Tomte · May 23, 08:24 · [社区讨论](https://news.ycombinator.com/item?id=48245862)
 
-**背景**: Datasette 是一个用于探索和发布数据的开源多工具，常与 SQLite 数据库一起使用。LLM 是一个用于与大语言模型交互的 Python 库。Datasette Agent 将两者结合，提供了对话式界面。
+**背景**: GNU Affero General Public License（AGPLv3）是一种强版权的开源许可证，要求任何通过网络分发修改版软件的用户必须公开完整的源代码。PrusaSlicer 是 Prusa Research 开发的流行开源 3D 打印切片软件。Bambu Studio 是用于 Bambu Lab 打印机的切片软件，最初基于 PrusaSlicer。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://datasette.io/blog/2026/datasette-agent/">Datasette Agent , an extensible AI assistant for... - Datasette Blog</a></li>
-<li><a href="https://pypi.org/project/datasette-agent-charts/">datasette - agent - charts · PyPI</a></li>
-<li><a href="https://simonwillison.net/2026/May/12/datasette/">Release: datasette 1.0a29 | Simon Willison’s Weblog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">GNU Affero General Public License - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PrusaSlicer">PrusaSlicer - Wikipedia</a></li>
+<li><a href="https://bambulab.com/en/download/studio">Software Bambu Studio | Bambu Lab</a></li>
 
 </ul>
 </details>
 
-**标签**: `#datasette`, `#ai-assistant`, `#data-analysis`, `#llm`, `#natural-language-querying`
+**社区讨论**: 评论者强烈关注知识产权和数据隐私，有人指出维护开源许可证成本高昂且违规行为难以证明。其他人则讨论了中国和美国政府进行数据挖掘的风险，一些用户表示将避免使用封闭源代码打印机来制作商业原型。
+
+**标签**: `#open source`, `#license violation`, `#3D printing`, `#AGPL`, `#intellectual property`
 
 ---
 
 <a id="item-16"></a>
-## [智谱推出 GLM-5.1 高速版，输出速度达 400 tokens/s](https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1-highspeed) ⭐️ 7.0/10
+## [李彦宏：AI 大模型已近应用爆发点](https://t.me/zaihuapd/41538) ⭐️ 7.0/10
 
-智谱 AI 发布了 GLM-5.1 高速版模型，输出速度达到每秒 400 个 token，目前面向其 BigModel 开放平台的部分企业客户开放。 这一速度里程碑使得实时应用（如编程智能体、实时 UI 构建和语音助手）成为可能，减少了企业 AI 部署中的延迟瓶颈。 该模型支持结构化输出，包括 Function Call 和 JSON，以及用于与外部工具和数据源集成的模型上下文协议（MCP）。
+百度 CEO 李彦宏表示，AI 大模型的发展已接近应用爆发的临界点，并透露百度搜索中 65%的结果已包含生成式内容，且这些内容被置于优先位置。 这标志着搜索引擎功能的重大转变，表明百度正在积极将生成式 AI 融入其核心产品，可能引领行业趋势。 百度两年前便启动所有产品的 AI 重构，李彦宏称这次搜索引擎改造是全球所有搜索引擎中最激进的。生成式内容不仅出现在搜索结果中，还被置于优先位置。
 
-telegram · zaihuapd · May 22, 04:45
+telegram · zaihuapd · May 23, 08:40
 
-**背景**: 模型上下文协议（MCP）是 Anthropic 于 2024 年 11 月推出的开放标准，旨在规范化 AI 模型与外部数据源之间的连接。编程智能体是一种 AI 辅助工具，可以自动化代码生成、审查和重构任务。高速推理对于实时 UI 构建和对话式智能体等交互式低延迟场景至关重要。
+**背景**: AI 大模型如 GPT 系列和百度的文心一言，是在海量数据上训练、能生成类人文本的深度学习模型。将它们集成到搜索引擎中，可以提供直接答案和摘要，而不仅仅是链接，类似于微软的 Copilot 集成。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://www.anthropic.com/news/model-context-protocol">Introducing the Model Context Protocol \ Anthropic</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#NLP`, `#model inference`, `#speed`, `#enterprise`
+**标签**: `#AI`, `#large language models`, `#Baidu`, `#generative AI`, `#search engine`
 
 ---
 
 <a id="item-17"></a>
-## [微软内部大规模推广 Claude Code，要求与 Copilot 对比使用](https://t.me/zaihuapd/41535) ⭐️ 7.0/10
+## [海盗船采用长鑫存储 DRAM，DDR5 价格有望下调](https://thenextweb.com/news/chinese-dram-cxmt-corsair-ddr5-memory-prices) ⭐️ 7.0/10
 
-微软正在其核心工程团队中广泛推广 Anthropic 的 Claude Code，包括 CoreAI 团队以及负责 Windows、Microsoft 365 和 Outlook 的体验与设备部门。软件工程师被要求同时使用 Claude Code 和 GitHub Copilot，并提供对比反馈。 此举表明，AI 编程助手正成为大型科技公司的标准工具，而 Anthropic 的 Claude Code 已成为微软自家 GitHub Copilot 的有力竞争对手。鼓励非技术员工使用 AI 进行原型设计，也可能降低软件开发的门槛。 推广活动适用于微软最重要的工程团队，甚至没有编程经验的员工也被鼓励使用 Claude Code 进行原型设计。将收集 Claude Code 与 Copilot 的对比反馈。
+美商海盗船已开始在其 DDR5 内存模组中使用中国长鑫存储（CXMT）的 DRAM 芯片，这是主流品牌首次在消费级产品中采用中国制造的 DRAM。 这一转变引入了 DRAM 市场的新竞争者，该市场原本由三星、SK 海力士和美光主导，有望在 AI 对高带宽内存需求导致全球供应紧张的情况下，降低消费者的 DDR5 内存价格。 这款采用长鑫芯片的海盗船复仇者 DDR5 16GB 内存条运行速度为 6000 MT/s，时序 CL36，性能与主流产品一致。长鑫存储计划于 2026 年上市，并进一步扩大产能。
 
-telegram · zaihuapd · May 23, 06:05
+telegram · zaihuapd · May 23, 11:17
 
-**背景**: Claude Code 是 Anthropic 公司开发的 AI 编程助手，该公司也是 Claude 系列大型语言模型的开发者。Claude 模型使用'宪法 AI'（constitutional AI）技术进行训练，以提高道德合规性。GitHub Copilot 是微软基于 OpenAI 技术自有的 AI 编程助手。微软在拥有 Copilot 的同时还推广 Claude Code，凸显了 AI 辅助软件开发领域的竞争格局。
+**背景**: 全球 DRAM 市场长期由三星、SK 海力士和美光三大巨头主导。近年来，AI 加速器所需的高带宽内存需求激增，导致消费级 DDR5 模组的产能被挤占，出现供应短缺。长鑫存储（CXMT）是一家中国 DRAM 制造商，于 2024 年底开始量产 DDR5 芯片，提供了替代供应来源。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
-<li><a href="https://code.claude.com/docs/en/overview">Overview - Claude Code Docs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies">ChangXin Memory Technologies - Wikipedia</a></li>
+<li><a href="https://www.tomshardware.com/pc-components/ddr5/chinese-memory-maker-cxmt-enters-the-mainstream-consumer-memory-with-corsair-vengeance-ddr5-kit-chinese-made-dram-emerges-as-an-antidote-for-crushing-shortages">Chinese memory maker CXMT enters mainstream... | Tom's Hardware</a></li>
+<li><a href="https://www.digitalfoundry.net/news/2026/05/corsair-taps-chinese-ddr5-for-its-ram-modules-while-china-developed-gpus-are-improving-fast">Corsair Taps Chinese DDR5 for Its RAM Modules... | Digital Foundry</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI编程`, `#微软`, `#Claude Code`, `#GitHub Copilot`, `#行业动态`
+**社区讨论**: Reddit 上的社区讨论表达了谨慎乐观，指出即使美国出口限制阻止长鑫芯片进入美国市场，增加的全球供应也能降低其他地区的价格并缓解整体需求压力。一些用户质疑长期可靠性和兼容性，但早期测试显示性能相当。
+
+**标签**: `#DRAM`, `#DDR5`, `#Corsair`, `#CXMT`, `#memory`, `#supply chain`
 
 ---
 
 <a id="item-18"></a>
-## [uv 0.11.16 发布，支持 Git 归档依赖和审计预览功能](https://github.com/astral-sh/uv/releases/tag/0.11.16) ⭐️ 6.0/10
+## [我国日均词元调用量两年增超千倍，2025 年 3 月突破 140 万亿](https://t.me/zaihuapd/41542) ⭐️ 7.0/10
 
-uv 0.11.16 增加了对 Git 仓库中直接归档依赖的支持，引入了预览审计功能，并包含多项错误修复和配置增强。 此版本提高了 uv 对使用 Git 中归档依赖的项目的灵活性，新的审计功能有助于检测恶意软件和不安全配置，增强了 Python 开发者的供应链安全性。 预览审计功能包括专门的畸形 OSV 错误处理和拒绝锁定恶意软件安装。此外，新增的 UV_NO_SYSTEM_CONFIG 环境变量允许用户禁用读取系统级配置。
+国家数据局披露，我国日均词元（Token）调用量在 2025 年 3 月突破 140 万亿，而 2024 年初仅为 1000 亿，两年内增长超千倍。 这一爆发式增长表明中国 AI 商业化的快速推进，以及围绕词元调用的新价值体系正在形成，对 AI 产业商业模式和数据经济至关重要。 2025 年底词元调用量已达 100 万亿，国家数据局强调词元具有可计量、可定价、可交易特征，推动数据市场化。这一增长反映了数据要素市场化配置改革的进展。
 
-github · github-actions[bot] · May 21, 22:11
+telegram · zaihuapd · May 23, 14:36
 
-**背景**: uv 是一个用 Rust 编写的快速 Python 包管理器，以其速度和可靠性著称。直接归档依赖允许在 Git 仓库中引用压缩档案（如 .tar.gz）作为包源，这对于供应商依赖或使用自定义存档的项目很有用。
+**背景**: 在大语言模型（LLM）中，词元（Token）是模型处理文本的最小单元，可以是一个词、子词或字符。分词（Tokenization）将输入文本切分为词元供模型处理。词元调用量的激增意味着 AI 服务使用量的大幅上升，因为每次向 LLM 的请求都会消耗大量词元。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://docs.astral.sh/uv/guides/install-python/">Installing and managing Python | uv</a></li>
+<li><a href="https://www.mexc.co/news/985902">令牌、代币、通证还 是 词 元 ？— — Token ... | MEXC News</a></li>
+<li><a href="https://codebitwave.com/artificial-intelligence-101-tokenizer-and-one-hot/">Artificial Intelligence 101: Tokenizer and One-Hot – CODEBITWAVE</a></li>
+<li><a href="https://paper.people.com.cn/rmrb/pc/attachement/202604/03/ebaa4672-39f2-4da9-a084-e137dd7f95de.pdf">paper.people.com.cn/rmrb/pc/attachement/202604/03/ebaa4672-39...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#uv`, `#python`, `#package-manager`, `#release`, `#tooling`
+**标签**: `#AI`, `#China`, `#tokenization`, `#data economy`, `#AI infrastructure`
 
 ---
 
 <a id="item-19"></a>
-## [Deno 2.8 发布，新增 'deno pack' 命令](https://deno.com/blog/v2.8) ⭐️ 6.0/10
+## [深入探讨 HTML <dl>元素的语义](https://benmyers.dev/blog/on-the-dl/) ⭐️ 6.0/10
 
-Deno 2.8 已发布，引入了新的 'deno pack' 命令，用于安全、简便地打包 JavaScript 和 TypeScript 应用。 此次发布巩固了 Deno 作为安全、现代运行时的地位，尤其是其权限模型和原生 TypeScript 支持，使其在与 Node.js 和 Bun 的竞争中保持优势。 新的 'deno pack' 命令简化了用于分发的打包流程，完整的变更日志还包括其他改进和错误修复，这是小版本发布的典型特点。
+这篇文章澄清了 HTML5 中 <dl> 的正确语义用法（常被误解为仅仅是定义列表），并强调了其在可访问性和清晰标记方面的重要性。 <dl> 元素在 HTML5 中不再仅仅是“定义列表”，现在表示名称-值组的“关联列表”。文章还探讨了 ARIA 角色限制和实际的嵌套模式。
 
-hackernews · roflcopter69 · May 22, 11:23 · [社区讨论](https://news.ycombinator.com/item?id=48234380)
+hackernews · ravenical · May 23, 13:03 · [社区讨论](https://news.ycombinator.com/item?id=48247325)
 
-**背景**: Deno 是一个基于 V8、Rust 和 Tokio 构建的 JavaScript 和 TypeScript 运行时，旨在作为 Node.js 的安全替代方案，具有内置权限系统和原生 TypeScript 执行等特性。它与 Node.js 以及更新的 Bun 运行时竞争，Bun 因其速度和一体化工具包而受到关注。
+**背景**: HTML <dl> 元素传统上用于定义列表（如词汇表）。在 HTML5 中，其语义被扩展为表示任何类型的名称-值关联，例如元数据或游戏属性。这一变化对可访问性以及屏幕阅读器如何解释内容产生了影响。
 
-**社区讨论**: 社区成员称赞了 Deno 的权限模型和稳定性，但一些人对 Bun 的快速增长提出疑问，并提到 Bun 被 Anthropic 收购。少数用户对 Deno 的长期资金表示担忧，因为作者婉拒了捐赠。
+**社区讨论**: 社区成员提出了几点：chrismorgan 指出了 <dl> 的 ARIA 角色限制以及 aria-label 的使用限制。jimbosis 提到世界上第一个网站大量使用了 <dl>。captn3m0 对从“定义列表”更名为“关联列表”感到惊讶。cloud-oak 询问了嵌套 <dl> 元素的问题，文章对此表示支持。Demiurge 赞扬了 <dl>，并批评了过去对表格的滥用。
 
-**标签**: `#deno`, `#javascript`, `#typescript`, `#runtime`, `#webdev`
+**标签**: `#HTML`, `#accessibility`, `#web development`, `#semantic markup`
 
 ---
 
 <a id="item-20"></a>
-## [受 Forth 启发的网站构建语言发布](https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites) ⭐️ 6.0/10
+## [Rubish：用纯 Ruby 编写的 Unix shell](https://github.com/amatsuda/rubish) ⭐️ 6.0/10
 
-一位开发者创建了一种受 Forth 启发的新编程语言，专门用于编写网站，并以业余项目形式分享。该语言使用基于栈的拼接式语法直接生成 HTML，并在开发过程中借助了 LLM。 该项目突显了使用 LLM 辅助开发快速原型化小众语言的趋势，并激发了社区对拼接式编程用于 Web 开发的兴趣。虽然并非开创性，但它展示了业余爱好者实验如何探索构建网站的其他范式。 该语言允许定义类似 `: h1 ( s -- ) "<h1>" emit . "</h1>" emit ;` 的单词来输出 HTML 标签，使用 `.` 和 `emit` 进行输出。该项目可编译为原生代码和 WebAssembly，支持服务器端和客户端渲染，并包含自适应压缩和多种持久化类型。
+一个名为 Rubish 的新 Unix shell 已在 GitHub 上发布，它完全用纯 Ruby 实现，允许用户使用 Ruby 语法编写 shell 脚本。 该项目弥合了 shell 脚本与 Ruby 之间的差距，可能使 Ruby 开发者更方便、更强大地完成 shell 任务，同时也引发了关于特定语言 shell 利弊的讨论。 Rubish 并非 bash 的直接替代品，它专注于基于 Ruby 的脚本。社区评论表达了对可能由 AI 辅助开发导致的代码质量的担忧，以及与传统 shell 相比可能存在的性能问题。
 
-hackernews · speckx · May 22, 15:00 · [社区讨论](https://news.ycombinator.com/item?id=48236887)
+hackernews · winebarrel · May 23, 06:32 · [社区讨论](https://news.ycombinator.com/item?id=48245262)
 
-**背景**: Forth 是一种基于栈的可扩展编程语言，使用后缀表示法和交互式解释器，以其简洁高效著称。拼接式编程用函数组合取代函数应用，表达式并列表示组合，所有函数操作单个隐式数据栈。该语言将这些概念适应于 Web 开发，允许开发者以类似 Forth 的风格编写 HTML。
+**背景**: Unix shell 是一种用于与操作系统交互的命令行界面。传统的 shell 如 bash 使用自己的脚本语言，而 Rubish 利用了 Ruby 这一高级、可读性强的语言。这使得 Ruby 开发者可以使用熟悉的语法和库来完成 shell 任务。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/Forth_(programming_language)">Forth (programming language)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Concatenative_programming_language">Concatenative programming language - Wikipedia</a></li>
-<li><a href="https://concatenative.org/wiki/view/Concatenative+language">Concatenative language</a></li>
+**社区讨论**: 社区反应不一：一些人觉得这个概念很棒，但对速度和 vi 输入问题存疑；另一些人担心 AI 辅助编程带来的代码质量；还有一些人对巧妙的命名表示赞赏。总体而言，该项目被视为一个有趣的实验。
 
-</ul>
-</details>
-
-**社区讨论**: 评论表达了乐趣和好奇，一位用户建议该语言非常适合个人博客。另一位用户询问语言语义的澄清，还有一位指出网站因“HN Hug of Death”而宕机。总体情绪积极，赞赏这种古怪风格以及 LLM 的赋能作用。
-
-**标签**: `#forth`, `#web-development`, `#programming-languages`, `#hobbyist`, `#llm-assistance`
-
----
-
-<a id="item-21"></a>
-## [FTC 对 Cox Media Group 虚假 AI 监听服务罚款](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 6.0/10
-
-美国联邦贸易委员会（FTC）宣布，Cox Media Group 等三家公司将支付近 100 万美元，以和解他们误导客户的指控。他们声称拥有 AI 驱动的“主动监听”营销服务，可窃听消费者智能设备来投放广告，但实际上根本没有使用语音数据。 此次和解凸显了 FTC 对虚假 AI 营销声明的日益严格审查，并向夸大 AI 能力的公司发出警告。同时，它也强调，将同意选项隐藏在冗长的服务条款中并不足以构成对侵入性数据收集的充分同意。 这些公司声称服务使用了智能设备的“语音数据”，但 FTC 发现他们只是在加价转售电子邮件列表。FTC 还指控这些公司虚假声称消费者通过同意应用程序的服务条款而选择了加入。
-
-rss · Simon Willison · May 22, 04:48
-
-**背景**: “主动监听”争议始于 2024 年，当时 Cox Media Group 被曝光推售基于监听智能设备对话的广告服务。FTC 的调查显示，该服务实际上并未使用语音数据。此案加剧了关于移动设备通过麦克风监听用户以投放广告的阴谋论，但这一说法已被多次驳斥。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.emarketer.com/content/faq-on-iot-connected-devices--marketing-opportunities-with-cars--wearables--smart-home">FAQ on IoT and connected devices : Marketing opportunities with cars...</a></li>
-<li><a href="https://forums.puri.sm/t/audio-from-smart-devices-used-for-advertising/24521">Audio from smart devices used for advertising ... - Purism community</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#regulation`, `#privacy`, `#deceptive practices`, `#FTC`
+**标签**: `#ruby`, `#shell`, `#unix`, `#open-source`
 
 ---

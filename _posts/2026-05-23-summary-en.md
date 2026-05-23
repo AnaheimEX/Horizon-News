@@ -5,458 +5,434 @@ date: 2026-05-23
 lang: en
 ---
 
-> From 47 items, 21 important content pieces were selected
+> From 42 items, 20 important content pieces were selected
 
 ---
 
-1. [Cloudflare 25-Minute Global Outage Affects 28% of HTTP Traffic](#item-1) ⭐️ 9.0/10
-2. [Apple open-sources corecrypto with formal verifications for quantum-safe crypto](#item-2) ⭐️ 9.0/10
-3. [Why Japanese companies diversify widely](#item-3) ⭐️ 8.0/10
-4. [Anthropic's Glasswing Update: 90.6% True Positive Rate](#item-4) ⭐️ 8.0/10
-5. [New Drug Shows Promise as Sleep Apnea Alternative to CPAP](#item-5) ⭐️ 8.0/10
-6. [AI-Driven HBM Demand Drives Up Consumer Electronics Prices](#item-6) ⭐️ 8.0/10
-7. [ByteDance Open-Sources 3B Multimodal Model Lance](#item-7) ⭐️ 8.0/10
-8. [China Cracks Down on Illegal Cross-Border Securities Trading](#item-8) ⭐️ 8.0/10
-9. [Tencent's Ximalaya Acquisition Approved with Condition to Drop Exclusive Audio Rights](#item-9) ⭐️ 8.0/10
-10. [Bureaucratic hurdles in shipping laptop to Uganda refugee camp](#item-10) ⭐️ 7.0/10
-11. [Microsoft cancels Claude Code licenses, pushes Copilot CLI](#item-11) ⭐️ 7.0/10
-12. [CISA Data Leak Prompts Lawmaker Scrutiny](#item-12) ⭐️ 7.0/10
-13. [Antigravity 2.0 Leads OpenSCAD Architectural 3D LLM Benchmark](#item-13) ⭐️ 7.0/10
-14. [Open source Kanban app runs parallel AI agents on each card](#item-14) ⭐️ 7.0/10
-15. [Datasette Agent: Conversational AI for Data Queries](#item-15) ⭐️ 7.0/10
-16. [Zhipu AI Launches GLM-5.1 HighSpeed at 400 tokens/s](#item-16) ⭐️ 7.0/10
-17. [Microsoft Widely Promotes Claude Code Internally, Asks for Copilot Comparison](#item-17) ⭐️ 7.0/10
-18. [uv 0.11.16 released with Git archive deps and audit features](#item-18) ⭐️ 6.0/10
-19. [Deno 2.8 Released with New 'deno pack' Command](#item-19) ⭐️ 6.0/10
-20. [Forth-inspired language for building websites unveiled](#item-20) ⭐️ 6.0/10
-21. [FTC Fines Cox Media Group for Fake AI Listening Service](#item-21) ⭐️ 6.0/10
+1. [80386 Microcode Disassembled from Die Photos](#item-1) ⭐️ 9.0/10
+2. [AI finds over 10,000 critical vulnerabilities in Project Glasswing](#item-2) ⭐️ 9.0/10
+3. [Apple Open-Sources corecrypto with Formal Verification for Quantum-Safe Algorithms](#item-3) ⭐️ 9.0/10
+4. [Shipping a Laptop to Uganda: Corruption and Lessons](#item-4) ⭐️ 8.0/10
+5. [Why Japanese Companies Diversify: Lifetime Employment & Employee Governance](#item-5) ⭐️ 8.0/10
+6. [Microsoft cancels Claude Code licenses, pushes Copilot CLI](#item-6) ⭐️ 8.0/10
+7. [AI Demand for HBM Squeezes Consumer Memory, Raising Prices](#item-7) ⭐️ 8.0/10
+8. [FTC Fines Cox Media Group $1M Over Bogus 'Active Listening' AI](#item-8) ⭐️ 8.0/10
+9. [Datasette Agent: LLM-Powered AI Assistant for Data Exploration](#item-9) ⭐️ 8.0/10
+10. [Tencent's Acquisition of Ximalaya Approved with Condition](#item-10) ⭐️ 8.0/10
+11. [China cracks down on illegal cross-border securities platforms](#item-11) ⭐️ 8.0/10
+12. [Cloudflare Outage Hits 28% HTTP Traffic for 25 Minutes](#item-12) ⭐️ 8.0/10
+13. [Microsoft pushes Claude Code internally, nudges non-tech staff to code](#item-13) ⭐️ 8.0/10
+14. [Microsoft reveals OpenAI's $11.5B quarterly loss](#item-14) ⭐️ 8.0/10
+15. [BambuStudio Accused of Violating PrusaSlicer's AGPL License](#item-15) ⭐️ 7.0/10
+16. [Robin Li: AI large models near explosion point](#item-16) ⭐️ 7.0/10
+17. [Corsair Adopts CXMT DRAM for DDR5, Prices Expected to Drop](#item-17) ⭐️ 7.0/10
+18. [China's daily token calls surge over 1000x in 2 years, hit 140 trillion in March 2025](#item-18) ⭐️ 7.0/10
+19. [Deep Dive into the HTML <dl> Element Semantics](#item-19) ⭐️ 6.0/10
+20. [Rubish: A Unix shell written in pure Ruby](#item-20) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Cloudflare 25-Minute Global Outage Affects 28% of HTTP Traffic](https://t.me/zaihuapd/41527) ⭐️ 9.0/10
+## [80386 Microcode Disassembled from Die Photos](https://www.reenigne.org/blog/80386-microcode-disassembled/) ⭐️ 9.0/10
 
-On December 5, 2025, Cloudflare experienced a 25-minute global outage that impacted approximately 28% of HTTP traffic, caused by a flawed WAF patch for the Next.js vulnerability CVE-2025-55182 (React2Shell). This outage is significant because Cloudflare is a major content delivery network (CDN) and security provider, and the incident disrupted a substantial portion of the web. It highlights the risks of rapid security patches and the cascading impact of vulnerabilities in widely used frameworks like Next.js. The outage primarily affected customers using the legacy FL1 proxy with Cloudflare Managed Rule Sets enabled. The flawed rule was part of an emergency response to CVE-2025-55182, a critical pre-authentication remote code execution vulnerability in React Server Components and Next.js.
+A reverse engineer has successfully disassembled the microcode of the Intel 80386 processor from high-resolution die photographs, revealing the internal control logic and microinstructions. This reverse engineering feat provides rare and detailed insights into the microarchitecture of one of the most influential x86 processors, benefiting computer architecture research and vintage computing enthusiasts. The disassembly process involves identifying the microcode ROM layout and decoding the microinstruction format from the transistor-level image, a complex task given the 32-bit processor's internal state machine.
 
-telegram · zaihuapd · May 22, 16:15
+hackernews · nand2mario · May 23, 12:11 · [Discussion](https://news.ycombinator.com/item?id=48247004)
 
-**Background**: Cloudflare operates one of the world's largest content delivery networks (CDN). The FL1 proxy is an older version of Cloudflare's proxy infrastructure, which is being gradually replaced by a new Rust-based version (FL2). CVE-2025-55182 (React2Shell) is a critical vulnerability in React Server Components and Next.js exploited for remote code execution; it prompted urgent patches across the ecosystem. The flawed WAF rule intended to mitigate this vulnerability inadvertently caused the outage.
+**Background**: Microcode is a layer of low-level instructions that implement the higher-level machine code instructions in a CPU. The Intel 80386, released in 1985, was a landmark 32-bit processor that established the x86 architecture. Die photography allows reverse engineers to examine the physical layout of transistors and reconstruct the microcode stored in ROM.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/">Defending against the CVE-2025-55182 (React2Shell) vulnerability in React Server Components | Microsoft Security Blog</a></li>
-<li><a href="https://unit42.paloaltonetworks.com/cve-2025-55182-react-and-cve-2025-66478-next/">Exploitation of Critical Vulnerability in React Server Components (Updated December 12)</a></li>
-<li><a href="https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182">React2Shell (CVE-2025-55182): Critical React Vulnerability | Wiz Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microcode">Microcode - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Intel_Microcode">Intel microcode - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Cloudflare`, `#outage`, `#CDN`, `#Next.js`, `#security`
+**Discussion**: The community expressed admiration for the technical difficulty and the rewarding nature of the work. Some users asked about the process of extracting microcode from die images, while others shared educational resources like the book on microprogramming and the nand2tetris course.
+
+**Tags**: `#reverse engineering`, `#microcode`, `#x86`, `#computer architecture`, `#Intel 80386`
 
 ---
 
 <a id="item-2"></a>
-## [Apple open-sources corecrypto with formal verifications for quantum-safe crypto](https://security.apple.com/blog/formal-verification-corecrypto/) ⭐️ 9.0/10
+## [AI finds over 10,000 critical vulnerabilities in Project Glasswing](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 9.0/10
 
-On May 22, Apple released the source code of its corecrypto library, including implementations of ML-KEM and ML-DSA with end-to-end formal verification proofs. These proofs mathematically confirm that the C code and hand-optimized ARM64 assembly exactly match the NIST standards. This is a landmark move for practical post-quantum security, as corecrypto is deployed on over 2.5 billion Apple devices. By open-sourcing the code and formal proofs, Apple sets a new standard for transparency and reliability in cryptographic implementations, which could influence the entire industry. The release includes not only the corecrypto source code but also custom verification tools and a library of Isabelle theories, allowing independent security experts to audit the proofs. The formal verification covers both C and ARM64 assembly, ensuring correctness at multiple levels.
+Anthropic announced initial results from Project Glasswing, where their Claude Mythos Preview model, in collaboration with 50+ partners, discovered over 10,000 high-severity and critical vulnerabilities in critical software within one month. The vulnerability discovery rate increased more than tenfold compared to traditional methods. This breakthrough shifts the bottleneck from vulnerability discovery to validation, disclosure, and patching, revealing a critical human resource gap. As AI-powered vulnerability detection becomes more widespread, the software industry must accelerate patch cycles to keep pace with the rising risk. The AI scanned thousands of open-source projects and identified 6,202 high-severity vulnerabilities, of which 1,752 were reviewed with a 90.6% true positive rate. Partners including Cloudflare reported a tenfold increase in vulnerability discovery speed. However, open-source maintainers requested to slow down reporting due to overwhelming validation and patching workloads.
 
-telegram · zaihuapd · May 23, 04:49
+telegram · zaihuapd · May 23, 03:16
 
-**Background**: corecrypto is the low-level cryptographic library used by Apple's operating systems, providing primitives for Security framework, CryptoKit, and CommonCrypto. Formal verification uses mathematical reasoning (e.g., with the Isabelle theorem prover) to prove that code meets its specification, eliminating entire classes of bugs. ML-KEM (Module-Lattice Key Encapsulation Mechanism) and ML-DSA (Module-Lattice Digital Signature Algorithm) are post-quantum algorithms recently standardized by NIST to resist attacks from future quantum computers.
+**Background**: Project Glasswing is a defensive cybersecurity initiative by Anthropic, leveraging a new frontier model called Claude Mythos Preview, which demonstrates exceptional capabilities in code analysis and vulnerability discovery. Traditional vulnerability discovery relies on manual auditing or static analysis tools, often missing subtle or complex bugs. AI models like Claude Mythos can analyze code at scale and find vulnerabilities that human experts might overlook, potentially transforming the security landscape.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://security.apple.com/blog/formal-verification-corecrypto/">A blueprint for formal verification of Apple corecrypto - Apple Security Research</a></li>
-<li><a href="https://github.com/apple/corecrypto">GitHub - apple/corecrypto: Apple corecrypto · GitHub</a></li>
+<li><a href="https://www.anthropic.com/glasswing">Project Glasswing : Securing critical software for the AI era \ Anthropic</a></li>
+<li><a href="https://red.anthropic.com/2026/mythos-preview/">Claude Mythos Preview \ red.anthropic.com</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI安全`, `#漏洞发现`, `#网络安全`, `#Anthropic`
+
+---
+
+<a id="item-3"></a>
+## [Apple Open-Sources corecrypto with Formal Verification for Quantum-Safe Algorithms](https://security.apple.com/blog/formal-verification-corecrypto/) ⭐️ 9.0/10
+
+On May 22, Apple open-sourced the corecrypto cryptographic library, including implementations of ML-KEM and ML-DSA with end-to-end formal verification proofs that ensure the C and ARM64 assembly code exactly matches the NIST standards. This is a major step for post-quantum cryptography, as corecrypto powers over 2.5 billion Apple devices and the formal verification provides unprecedented assurance that the quantum-safe implementations are correct, potentially influencing industry adoption of similar verification practices. Apple also released custom verification tools and the Isabelle theory library used in the proofs, allowing independent experts to evaluate the correctness. The verified algorithms include ML-KEM (key encapsulation) and ML-DSA (digital signatures), both standardized by NIST in 2024.
+
+telegram · zaihuapd · May 23, 04:49
+
+**Background**: Quantum computers pose a threat to current public-key cryptography, as algorithms like RSA and ECC could be broken by Shor's algorithm. In response, NIST standardized post-quantum algorithms: ML-KEM (FIPS 203) for key exchange and ML-DSA (FIPS 204) for digital signatures, both based on lattice cryptography. Formal verification uses theorem provers like Isabelle to mathematically prove that code matches its specification, offering stronger guarantees than traditional testing.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ML-KEM">ML-KEM - Wikipedia</a></li>
+<li><a href="https://www.digicert.com/insights/post-quantum-cryptography/mldsa">ML-DSA | Post-Quantum Cryptography | DigiCert Insights</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)">Isabelle (proof assistant) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#cryptography`, `#formal verification`, `#quantum-safe`, `#Apple`, `#open source`
-
----
-
-<a id="item-3"></a>
-## [Why Japanese companies diversify widely](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 8.0/10
-
-The article 'Why Japanese companies do so many different things' explains that extensive diversification in Japanese firms is rooted in lifetime employment and firm-specific skills, which incentivize companies to retain and redeploy employees internally rather than lay them off. This analysis challenges the Western emphasis on corporate focus and shareholder value, offering a deeper understanding of alternative organizational models that prioritize employee stability. It provides valuable context for global business strategy and the persistence of diversification in Japan. Key details include that the system only works when firms are insulated from outside shareholder pressure, and that lifetime employment, though not universal, remains influential in large Japanese companies. The article also notes that Western firms historically diversified more than they do today.
-
-hackernews · d0ks · May 22, 15:22 · [Discussion](https://news.ycombinator.com/item?id=48237163)
-
-**Background**: Lifetime employment in Japan is a practice where employees join a company after graduation and remain until retirement, common in large firms. Firm-specific skills are knowledge and abilities that are valuable only within that particular company, making employees less mobile. These features encourage firms to invest heavily in employee training and to diversify as a way to retain staff during downturns. However, this system also reduces labor market fluidity and can create challenges for mid-career hires.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.bls.gov/opub/mlr/1984/08/rpt4full.pdf">Lifetime employment in Japan : three models of the concept</a></li>
-<li><a href="https://www.researchgate.net/publication/271739231_Occupational_Human_Capital_and_Wages_The_Role_of_Skills_Transferability_Across_Occupations">(PDF) Occupational Human Capital and Wages: The Role of Skills ...</a></li>
-<li><a href="https://www.academia.edu/114823487/Shukko_in_Japanese_companies_and_its_economic_and_managerial_effects">(PDF) Shukko in Japanese companies and its economic and...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters offered diverse viewpoints: jdw64 cautioned against Western idealization of Japan, while BJones12 highlighted the article's core insight about employee-run firms. stymaar noted that Western companies also used to diversify more in the past, and unsignedint pointed out the downside of low job mobility in Japan.
-
-**Tags**: `#Japanese business`, `#corporate strategy`, `#diversification`, `#organizational culture`, `#HN discussion`
+**Tags**: `#密码学`, `#形式化验证`, `#量子安全`, `#苹果`, `#开源`
 
 ---
 
 <a id="item-4"></a>
-## [Anthropic's Glasswing Update: 90.6% True Positive Rate](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 8.0/10
+## [Shipping a Laptop to Uganda: Corruption and Lessons](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 8.0/10
 
-Anthropic released a progress update on Project Glasswing, reporting that its Claude Mythos Preview AI model achieved a 90.6% true positive rate and 62.4% high/critical severity findings in vulnerability detection, validated by six independent security research firms. This demonstrates that advanced AI can dramatically improve software vulnerability detection, potentially making codebases significantly more secure. It could shift industry practices toward relying on AI-assisted code review, especially for critical infrastructure. The model identified 1,752 high- or critical-severity vulnerabilities, of which 90.6% (1,587) were confirmed as true positives, and 62.4% (1,094) were rated high or critical. The validation was done by six independent security firms or by Anthropic in a small number of cases.
+The author recounts the extreme difficulties and systemic corruption encountered when trying to ship a laptop to a refugee camp in Uganda, including exorbitant taxes and bureaucratic hurdles. This story exposes the broken logistics and corruption that hinder aid and personal shipments to developing regions, affecting both humanitarian efforts and individuals. The author tried multiple carriers including DHL and Uganda Post, faced demands for bribes, and finally succeeded through a local freight forwarder known as a "grey market" broker.
 
-hackernews · louiereederson · May 22, 19:31 · [Discussion](https://news.ycombinator.com/item?id=48240419)
+hackernews · lexandstuff · May 22, 21:36 · [Discussion](https://news.ycombinator.com/item?id=48241997)
 
-**Background**: Project Glasswing is an Anthropic initiative to deploy AI for cybersecurity, with Claude Mythos Preview as a specialized vulnerability detection model. Traditional static analysis tools catch common issues but often miss more complex or context-dependent vulnerabilities. LLMs like Claude can analyze code holistically, finding subtle flaws that rule-based tools overlook. The project includes a $100M commitment in model usage credits for participants.
+**Background**: Shipping electronics to many African countries is notoriously difficult due to high import duties, corruption, and unreliable postal systems. Many expatriates and locals rely on informal freight forwarders who use airline passengers' luggage allowance to transport goods, bypassing official channels.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.anthropic.com/glasswing">Project Glasswing : Securing critical software for the AI era \ Anthropic</a></li>
-<li><a href="https://stable-learn.com/en/anthropic-glasswing-project/">Anthropic Drops a 'Nuclear Bomb': AI Vulnerability Detection ...</a></li>
+**Discussion**: Commenters largely agree with the author's assessment, with many Ugandans confirming the systemic corruption. They recommend using grey-market freight forwarders or personally carrying items when traveling, and criticize the author's initial assumption that Western shipping methods would work.
 
-</ul>
-</details>
-
-**Discussion**: User mdeeks praised Codex Security (likely linked to Mythos) as highly accurate (~90%) and essential. However, curl maintainer Daniel Steinberg expressed skepticism, stating he saw no evidence of significant improvement over existing tools. Others debated the cost-effectiveness compared to static analysis.
-
-**Tags**: `#AI`, `#security`, `#vulnerability detection`, `#Anthropic`, `#code analysis`
+**Tags**: `#logistics`, `#Uganda`, `#corruption`, `#aid`, `#practical lessons`
 
 ---
 
 <a id="item-5"></a>
-## [New Drug Shows Promise as Sleep Apnea Alternative to CPAP](https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug) ⭐️ 8.0/10
+## [Why Japanese Companies Diversify: Lifetime Employment & Employee Governance](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 8.0/10
 
-Researchers have developed a new drug for sleep apnea based on decades of sleep research, offering a potential alternative to CPAP therapy. If approved, this drug could provide relief for millions of sleep apnea patients who struggle with CPAP compliance, and reduce the long-term health risks associated with untreated apnea. The drug reportedly reduces apnea-hypopnea index (AHI) events by about 4 per hour, which may be more suitable for mild cases; side effects and long-term efficacy remain under investigation.
+An essay argues that Japanese companies' broad diversification stems from lifetime employment and employee-led governance, where firms prioritize survival and employee interests over shareholder value. This analysis challenges Western corporate focus on shareholder primacy, offering an alternative model where employee-centric governance drives diversification and long-term stability. The article notes that lifetime employees with firm-specific skills cannot be easily fired, and the system only works if insulated from external shareholder pressure.
 
-hackernews · colinprince · May 22, 22:05 · [Discussion](https://news.ycombinator.com/item?id=48242278)
+hackernews · d0ks · May 22, 15:22 · [Discussion](https://news.ycombinator.com/item?id=48237163)
 
-**Background**: Sleep apnea is a disorder where breathing repeatedly stops during sleep, often treated with a CPAP machine that delivers pressurized air. However, many patients find CPAP uncomfortable and discontinue use. A drug that targets the underlying mechanism could dramatically improve treatment adherence.
+**Background**: Lifetime employment is a Japanese practice where about 30-40% of workers are effectively employed for their entire career at one firm. Employee-led governance means companies are run by employees, not just shareholders, focusing on long-term survival. This contrasts with Western models that prioritize shareholder value and short-term profits.
 
-**Discussion**: Commenters express mixed reactions: some are excited about a drug alternative to CPAP, while others note that the modest reduction in AHI events (about 4) may only help mild cases. Personal experiences with CPAP and alternative treatments like posture correction are also shared.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.bls.gov/opub/mlr/1984/08/rpt4full.pdf">Lifetime employment in Japan : three models of the concept</a></li>
+<li><a href="https://eprints.whiterose.ac.uk/id/eprint/43581/1/MatanleMatsuiEPJHRM2011_Deposit.pdf">Lifetime Employment in 21st Century Japan : Stability and Resilience...</a></li>
+<li><a href="https://www.nishimura.com/sites/default/files/articles/file/478.pdf">Corporate Governance and Directors' Duties in Japan: Overview</a></li>
 
-**Tags**: `#sleep apnea`, `#drug research`, `#medical breakthrough`, `#health tech`, `#CPAP alternative`
+</ul>
+</details>
+
+**Discussion**: Comments highlight that this system creates low job fluidity and challenges for mid-career hires, while some note Western companies also diversified in the past. Others caution against romanticizing the Japanese model, pointing out its social and economic downsides.
+
+**Tags**: `#Japanese business`, `#corporate strategy`, `#organizational culture`, `#economic systems`
 
 ---
 
 <a id="item-6"></a>
-## [AI-Driven HBM Demand Drives Up Consumer Electronics Prices](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
+## [Microsoft cancels Claude Code licenses, pushes Copilot CLI](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad) ⭐️ 8.0/10
 
-Memory manufacturers are reallocating wafer capacity from DDR and LPDDR to HBM, with HBM's share expected to reach 20% by end of 2026, up from 2%. This shift is causing price increases for consumer electronics, especially sub-$100 smartphones. This repricing affects billions of consumers, particularly in price-sensitive markets like Africa and South Asia, and signals a structural shift in the semiconductor industry driven by AI demand. A single gigabyte of HBM consumes more than three times the wafer capacity of a gigabyte of DDR or LPDDR. Memory companies intentionally under-provision fabrication capacity to avoid extinction, further constraining supply.
-
-rss · Simon Willison · May 22, 22:01
-
-**Background**: Memory chips are manufactured on silicon wafers, with fixed processing capacity per fab. High-Bandwidth Memory (HBM) is a 3D-stacked DRAM technology that offers high data bandwidth and low power, essential for AI accelerators like GPUs. The surge in AI data centers has dramatically increased HBM demand, squeezing wafer allocation for other memory types.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://luna3.ai/what-is-hbm-memory">What Is HBM Memory ? The Bottleneck Behind Every AI Chip</a></li>
-<li><a href="https://www.linkedin.com/posts/techi_aichips-memoryshortage-hbm-activity-7419037939961323520-UqKt">AI Chip Demand Triggers Global Memory Shortage | LinkedIn</a></li>
-<li><a href="https://www.formfactor.com/blog/2026/high-bandwidth-memory-testing-why-early-test-strategies-are-critical-for-yield-cost-and-performance/">High-Bandwidth Memory Testing – Why Early Test Strategies Are...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#memory shortage`, `#AI`, `#consumer electronics`, `#hardware`, `#supply chain`
-
----
-
-<a id="item-7"></a>
-## [ByteDance Open-Sources 3B Multimodal Model Lance](https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A) ⭐️ 8.0/10
-
-ByteDance has released Lance, a lightweight multimodal model with 3 billion activated parameters that natively unifies image and video understanding and generation tasks. It can output text, images, and videos in a single framework. This open-source release under Apache 2.0 license significantly lowers the barrier for developers and researchers to experiment with unified multimodal AI, potentially accelerating innovation in content creation and multimodal understanding. Lance employs a shared context and dual-stream expert architecture, using Qwen2.5-VL and Wan2.2 encoders for understanding and generation respectively, with modality-aware positional encoding to resolve sequence boundary confusion. It achieves state-of-the-art results on benchmarks like GenEval for image generation and VBench for video generation.
-
-telegram · zaihuapd · May 22, 06:40
-
-**Background**: Multimodal AI models that both understand and generate multiple modalities (text, image, video) typically require separate systems or large parameter counts. Lance achieves unification with only 3B active parameters by leveraging a dual-stream design where understanding and generation share context but use specialized encoders. Qwen2.5-VL is a vision-language model for understanding, while Wan2.2 is an open-source MoE video generation model.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit">Qwen -Image-Edit ComfyUI Native Workflow Example - ComfyUI</a></li>
-<li><a href="https://wan22.io/">Wan 2 . 2 - Open Source MoE Video Generation | Every Shot... | wan22.io</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#multimodal`, `#open-source`, `#ByteDance`, `#image generation`, `#video generation`
-
----
-
-<a id="item-8"></a>
-## [China Cracks Down on Illegal Cross-Border Securities Trading](https://mp.weixin.qq.com/s?__biz=MzA4NzAzMDgwMw==&amp;mid=2651090403&amp;idx=3&amp;sn=bca72a940ac72bef356f29b5b9576ac1&amp;chksm=8a1670281e2bc67d2df3608a313ba9fdaf0fcd2f43ce44475c6bf273b386af2e4f9d8e8e2e2b&amp;scene=0&amp;xtrack=1) ⭐️ 8.0/10
-
-Eight Chinese government departments jointly issued a plan to crack down on illegal cross-border securities, futures, and fund operations, allowing existing investors only to sell and withdraw funds. The China Securities Regulatory Commission (CSRC) has launched investigations into Tiger Brokers, Futu, and Changqiao for unauthorized cross-border business. This regulatory action directly affects millions of Chinese investors using offshore trading platforms and signals a firm stance against unlicensed cross-border financial services. It also promotes the use of legal channels like Stock Connect, QDII, and Cross-boundary Wealth Management Connect, shaping the future of China's capital account openness. The plan includes a two-year centralized rectification period during which only sell-only and fund withdrawal operations are allowed for existing investors. After the period, all related domestic websites, trading software, and supporting servers must be shut down. The CSRC has issued pre-penalty notices to the investigated entities, seeking to confiscate all illegal gains and impose severe penalties.
-
-telegram · zaihuapd · May 22, 08:26
-
-**Background**: Chinese regulators have long restricted cross-border securities trading by domestic investors to licensed channels such as Shanghai-Hong Kong and Shenzhen-Hong Kong Stock Connect (known as '港股通'), QDII (Qualified Domestic Institutional Investor) funds, and the Cross-boundary Wealth Management Connect in the Greater Bay Area. These mechanisms allow limited, regulated access to overseas markets while maintaining capital controls. In recent years, platforms like Tiger Brokers and Futu have grown popular by offering direct access to US and Hong Kong stocks, circumventing these rules and raising regulatory concerns over investor protection and capital flow monitoring.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://zh.wikipedia.org/zh-cn/沪港通">沪港通 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://baike.baidu.com/item/港股通/13611865">港股通</a></li>
-<li><a href="https://zh.wikipedia.org/zh-sg/跨境理财通">跨境理财通 - 维基百科，自由的百科全书</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#regulation`, `#cross-border trading`, `#China`, `#fintech`, `#securities`
-
----
-
-<a id="item-9"></a>
-## [Tencent's Ximalaya Acquisition Approved with Condition to Drop Exclusive Audio Rights](https://mp.weixin.qq.com/s/xnx31SOS6NMozZXnHeaaQg) ⭐️ 8.0/10
-
-China's State Administration for Market Regulation approved Tencent's acquisition of Ximalaya, but mandated that Tencent end all exclusive online audio copyright agreements. This decision may break down exclusive content barriers in the online audio market, fostering competition and making it easier for users to listen across platforms. Tencent must commit to not entering into or indirectly establishing any new exclusive licensing agreements, and must terminate existing exclusive contracts within a specified deadline.
-
-telegram · zaihuapd · May 22, 10:33
-
-**Background**: Ximalaya is one of China's largest online audio platforms with a vast library of exclusive content. Tencent had previously invested in Ximalaya, and this acquisition approval with antitrust conditions reflects China's tightening regulatory stance on content exclusivity in digital platforms.
-
-**Tags**: `#antitrust`, `#regulation`, `#audio streaming`, `#Tencent`, `#Ximalaya`
-
----
-
-<a id="item-10"></a>
-## [Bureaucratic hurdles in shipping laptop to Uganda refugee camp](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 7.0/10
-
-The author recounts the lengthy, corrupt, and costly process of shipping a laptop to a colleague in a Ugandan refugee camp, including multiple customs delays and bribe demands. This story illustrates the systemic inefficiencies and corruption that hinder the delivery of essential technology and aid to developing regions, impacting humanitarian work and local economies. The laptop eventually arrived after months of effort, with the recipient Django remaining grateful and positive throughout the ordeal, highlighting his resilience.
-
-hackernews · lexandstuff · May 22, 21:36 · [Discussion](https://news.ycombinator.com/item?id=48241997)
-
-**Background**: Shipping electronics to developing countries often involves complex customs rules and unofficial fees. Many expatriates and aid workers resort to hand-carrying items to avoid such hassles, a common workaround mentioned in the comments.
-
-**Discussion**: A Ugandan commenter confirmed the broken system and criticized the author's hubris for not asking locals for advice first. Others noted that hand-carrying items is often the most reliable method, and even in developed countries, customs can be burdensome.
-
-**Tags**: `#logistics`, `#corruption`, `#Africa`, `#humanitarian`, `#shipping`
-
----
-
-<a id="item-11"></a>
-## [Microsoft cancels Claude Code licenses, pushes Copilot CLI](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad) ⭐️ 7.0/10
-
-Microsoft is canceling most Claude Code licenses for its developers, effective June 30, and is steering them toward its own GitHub Copilot CLI tool. This move signals Microsoft's strategic shift to promote its in-house AI coding tools over third-party alternatives like Anthropic's Claude Code, potentially reshaping the developer tool ecosystem. The cancellation was a pilot launched in December that accidentally consumed the company's 2026 yearly target spend on AI, according to community comments.
+Microsoft is revoking Claude Code licenses from its developers and directing them to use GitHub Copilot CLI instead, a command-line AI coding tool. This move signals Microsoft's strategic push to drive adoption of its own AI coding assistant, Copilot CLI, at the expense of a popular competitor, potentially limiting developer choice and sparking backlash. According to the article, Microsoft initially offered both tools to developers for comparison, but developers overwhelmingly preferred Claude Code over Copilot, leading to the license cancellations.
 
 hackernews · robertkarl · May 22, 17:32 · [Discussion](https://news.ycombinator.com/item?id=48238896)
 
-**Background**: Claude Code is an AI-powered coding assistant by Anthropic that operates in the terminal, while GitHub Copilot CLI is Microsoft's command-line coding tool. Both help developers write and manage code via natural language commands.
+**Background**: Claude Code is an agentic coding tool by Anthropic that works in the terminal, understanding codebases and automating tasks. GitHub Copilot CLI is Microsoft's own command-line AI coding assistant. Both aim to help developers code faster, but Claude Code is often seen as more effective.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-<li><a href="https://github.com/features/copilot/cli">GitHub Copilot CLI · GitHub</a></li>
+<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system</a></li>
+<li><a href="https://awesome-copilot.github.com/learning-hub/cli-for-beginners/">GitHub Copilot CLI for Beginners</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Developers noted that Claude Code consumed tokens rapidly when used unsupervised, but was more efficient with human-in-the-loop. Some questioned the cost-effectiveness of AI tooling compared to human labor.
+**Discussion**: Commenters expressed frustration, noting that Microsoft's hope for Copilot to outperform Claude Code backfired. Some highlighted that careful, supervised use of Claude Code can be cost-effective, while others criticized Copilot's poor performance in government cloud environments.
 
-**Tags**: `#Microsoft`, `#Claude Code`, `#Copilot CLI`, `#AI coding tools`, `#developer tools`
+**Tags**: `#Microsoft`, `#Claude Code`, `#Copilot`, `#AI coding assistants`, `#developer tools`
+
+---
+
+<a id="item-7"></a>
+## [AI Demand for HBM Squeezes Consumer Memory, Raising Prices](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
+
+AI's surging demand for HBM memory is expected to increase its wafer allocation from 2% to 20% by end of 2026, squeezing production of DDR and LPDDR memory and causing price hikes for consumer electronics, especially sub-$100 smartphones. This shift highlights a structural trade-off between AI infrastructure and affordable consumer devices, potentially impacting billions of users in emerging markets who rely on low-cost smartphones. Memory companies are prioritizing high-margin HBM over consumer RAM, a trend likely to persist for years. A single gigabyte of HBM consumes more than three times the wafer capacity of a gigabyte of DDR or LPDDR. Memory manufacturers have learned from past industry consolidation to always under-provision capacity, further constraining supply.
+
+rss · Simon Willison · May 22, 22:01
+
+**Background**: HBM (High Bandwidth Memory) is a 3D-stacked DRAM technology optimized for high-speed data transfer and low power, essential for GPUs and AI accelerators. Wafer capacity refers to the number of silicon wafers a fab can process, split among different memory types. DDR and LPDDR are standard memory types used in desktops/servers and mobile devices, respectively.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="https://semiengineering.com/high-bandwidth-memory-hbm-everything-you-need-to-know/">High Bandwidth Memory (HBM): Everything You Need To Know</a></li>
+<li><a href="https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%-in-2024-and-7%-in-2025-semi-reports">Global Semiconductor Fab Capacity Projected to Expand 6% in ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#memory shortage`, `#AI`, `#consumer electronics`, `#semiconductors`, `#pricing`
+
+---
+
+<a id="item-8"></a>
+## [FTC Fines Cox Media Group $1M Over Bogus 'Active Listening' AI](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 8.0/10
+
+The FTC announced that Cox Media Group, MindSift, and 1010 Digital Works will pay nearly $1 million to settle charges of falsely claiming their 'Active Listening' AI service eavesdropped on smart devices to target ads. The service actually just resold email lists at a markup. This case underscores increasing FTC scrutiny of deceptive AI marketing and false privacy claims, setting a precedent that companies cannot mislead consumers about AI-powered surveillance capabilities. It also provides ammunition against conspiracy theories that smartphones use microphones for ad targeting. The FTC clarified that hidden opt-in clauses in terms of service do not constitute adequate consent for such invasive practices. Additionally, the firms failed to deliver targeted ads as promised, instead reselling data broker lists.
+
+rss · Simon Willison · May 22, 04:48
+
+**Background**: 'Active Listening' refers to a controversial marketing technique that claims to use AI to analyze real-time voice data from smart devices for ad targeting. The FTC enforces consumer protection laws against deceptive practices. The recent settlement confirms that the service did not actually listen to conversations, debunking common conspiracy theories.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://thecyberexpress.com/ftc-ai-powered-active-listening-case/">AI-Powered Marketing Service “Active Listening” Deceived ...</a></li>
+<li><a href="https://www.newsweek.com/phone-voice-assistants-active-listening-consent-targeted-ads-1949251">Is Your Phone Really Listening to You? Here’s What We Know FTC: Cox Media Group and 2 others to pay nearly $1M over ... Is your phone listening? Marketing firm confirms tech behind ... Is Your Device Always Listening? How It Fuels Targeted Ads FTC: Cox Media Group Sold Bogus AI Ad Service, Now Must... Marketer that claimed it could tap devices for ad targeting ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#FTC`, `#AI`, `#privacy`, `#advertising`, `#enforcement`
+
+---
+
+<a id="item-9"></a>
+## [Datasette Agent: LLM-Powered AI Assistant for Data Exploration](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 8.0/10
+
+Simon Willison announced the first release of Datasette Agent, an extensible AI assistant that integrates large language models with Datasette for conversational data queries and chart generation via plugins. Datasette Agent bridges LLMs and structured data, making data exploration more accessible to non-technical users and enabling natural language interaction with SQLite databases. The live demo runs on Gemini 3.1 Flash-Lite for cheap, fast inference, and the plugin ecosystem currently includes chart generation via Observable Plot and image generation via ChatGPT.
+
+rss · Simon Willison · May 21, 19:52
+
+**Background**: Datasette is an open-source tool that publishes SQLite databases as interactive web interfaces and JSON APIs. The LLM library is a CLI tool and Python library for interacting with various large language models. Datasette Agent combines these two tools to allow natural language queries over data.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://datasette.io/">Datasette: An open source multi-tool for exploring and ...</a></li>
+<li><a href="https://llm.datasette.io/">LLM: A CLI utility and Python library for interacting with Large Language Models</a></li>
+<li><a href="https://github.com/simonw/datasette">GitHub - simonw/datasette: An open source multi-tool for ... Datasette Review (2026) - MakerStack Introduction to Datasette, a Frontend to Tabulated Data Commodore Datasette - Wikipedia datasette · PyPI Datasette - skills.network</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Datasette`, `#LLM`, `#AI Assistant`, `#Data Exploration`, `#Python`
+
+---
+
+<a id="item-10"></a>
+## [Tencent's Acquisition of Ximalaya Approved with Condition](https://mp.weixin.qq.com/s/xnx31SOS6NMozZXnHeaaQg) ⭐️ 8.0/10
+
+China's State Administration for Market Regulation approved Tencent's acquisition of Ximalaya, requiring Tencent to stop exclusive online audio copyright agreements and cancel existing exclusive contracts within a deadline. This breaks Ximalaya's content monopoly, potentially reshaping the online audio market by allowing other platforms to access the same copyrighted content, benefiting competition and user convenience. Tencent must not enter or renew exclusive licensing agreements for online audio copyrights, and must dismantle all existing exclusive deals within a set period. Tencent stated it will comply and seek non-exclusive partnerships moving forward.
+
+telegram · zaihuapd · May 22, 10:33
+
+**Background**: Ximalaya is China's largest online audio platform, with a vast library of audiobooks, podcasts, and radio shows. Exclusive copyright agreements were a key competitive advantage, locking content to Ximalaya. Tencent's acquisition raised antitrust concerns due to potential market dominance.
+
+**Tags**: `#Tencent`, `#Ximalaya`, `#Antitrust`, `#Online Audio`, `#Regulation`
+
+---
+
+<a id="item-11"></a>
+## [China cracks down on illegal cross-border securities platforms](https://t.me/zaihuapd/41525) ⭐️ 8.0/10
+
+China's eight government departments jointly issued a plan to crack down on illegal cross-border securities, futures, and fund operations, requiring existing investors to only sell assets and withdraw funds. The CSRC has initiated investigations against Tiger Brokers, Futu, and Changqiao for illegal cross-border business. This regulatory action significantly impacts cross-border investment platforms and their users, likely forcing many fintech companies to halt services in China. It signals a tougher stance on capital outflows and unlicensed financial activities, affecting millions of Chinese investors using these platforms. The plan sets a two-year rectification period during which only existing investors can sell assets and withdraw funds, after which all relevant websites, trading software, and servers must be shut down. Targets include overseas institutions, domestic associates, and platforms providing account opening channels or marketing lead generation.
+
+telegram · zaihuapd · May 22, 13:55
+
+**Background**: Tiger Brokers (TIGR), Futu Holdings (FUTU), and Changqiao are online brokerages that allowed Chinese residents to trade global stocks and derivatives, often without proper regulatory approval from Chinese authorities. China's securities laws require any entity soliciting clients or executing trades within the country to be licensed by the CSRC. This crackdown follows years of regulatory warnings and reflects Beijing's efforts to control cross-border capital flows and protect investors.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Futu">Futu - Wikipedia</a></li>
+<li><a href="https://www.futuholdings.com/en-us/profile">About Us | FUTU | Futu Holdings Limited 富途控股</a></li>
+<li><a href="https://grokipedia.com/page/Tiger_Brokers">Tiger Brokers</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#regulation`, `#cross-border investment`, `#China`, `#fintech`, `#securities`
 
 ---
 
 <a id="item-12"></a>
-## [CISA Data Leak Prompts Lawmaker Scrutiny](https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/) ⭐️ 7.0/10
+## [Cloudflare Outage Hits 28% HTTP Traffic for 25 Minutes](https://t.me/zaihuapd/41527) ⭐️ 8.0/10
 
-CISA is attempting to contain a data leak after a contractor used GitHub as a scratchpad, potentially exposing sensitive information. Lawmakers have demanded answers about the incident and CISA's response. This incident highlights ongoing risks in government cybersecurity practices, especially regarding contractor management and data handling. The congressional scrutiny could lead to stricter oversight and policy changes. CISA stated there is no indication that sensitive data was compromised, but the method suggests an individual contractor used the repository for syncing work between machines. Security experts note that this is a human problem that technical controls alone cannot solve.
+On December 5, 2025, Cloudflare experienced a 25-minute global network outage that affected approximately 28% of HTTP traffic, caused by a flawed fix for the React Server Components vulnerability CVE-2025-55182 in Next.js. This outage impacted a significant portion of internet traffic routed through Cloudflare, one of the largest content delivery networks, highlighting the cascading risks of security patch deployments on critical infrastructure. The outage specifically affected customers using the older FL1 proxy with Cloudflare's Managed Ruleset deployed, returning HTTP 500 errors. The root cause was a Lua nil-pointer bug triggered when a killswitch was applied to an execute-action ruleset during the CVE fix.
 
-hackernews · speckx · May 22, 16:54 · [Discussion](https://news.ycombinator.com/item?id=48238429)
+telegram · zaihuapd · May 22, 16:15
 
-**Background**: CISA is the U.S. federal agency responsible for cybersecurity and infrastructure security. Data leaks from government contractors have occurred before, such as the leak of millions of SF-86 security clearance forms. Using GitHub as a personal scratchpad violates best practices like never committing credentials or sensitive data to repositories.
+**Background**: Cloudflare is a major content delivery network and security provider that handles a large share of global web traffic. Its FL1 proxy is an older request handling layer. CVE-2025-55182 is a critical pre-authentication remote code execution vulnerability in React Server Components, affecting versions 19.0.0 to 19.2.0. Cloudflare's Web Application Firewall (WAF) rules include managed rulesets to block such exploits, but a flawed update caused the outage.
 
-**Discussion**: Commenters expressed skepticism about CISA's assurance that no sensitive data was compromised, referencing past leaks like the SF-86 incident. Some questioned the technical controls and noted the irony of a cybersecurity agency suffering such a breach. Others highlighted the difficulty of preventing contractors from using such workarounds.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://blog.cloudflare.com/5-december-2025-outage/">Cloudflare outage on December 5, 2025</a></li>
+<li><a href="https://www.ascii.co.uk/news/article/news-20251208-71fe2ccb/cloudflare-25-minute-outage-lua-nil-bug-in-waf-rules-engine">Cloudflare 25-Minute Outage: Lua Nil Bug in WAF Rules Engine</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-55182">NVD - CVE-2025-55182</a></li>
 
-**Tags**: `#cybersecurity`, `#data leak`, `#CISA`, `#infosec`, `#government`
+</ul>
+</details>
+
+**Tags**: `#Cloudflare`, `#outage`, `#CVE-2025-55182`, `#Next.js`, `#WAF`
 
 ---
 
 <a id="item-13"></a>
-## [Antigravity 2.0 Leads OpenSCAD Architectural 3D LLM Benchmark](https://modelrift.com/blog/openscad-llm-benchmark/) ⭐️ 7.0/10
+## [Microsoft pushes Claude Code internally, nudges non-tech staff to code](https://t.me/zaihuapd/41535) ⭐️ 8.0/10
 
-Antigravity 2.0 achieved the highest score in a new benchmark for generating OpenSCAD architectural 3D models using large language models, particularly excelling in reproducing complex interior details of the Pantheon. The benchmark evaluates LLM-based code generation for parametric 3D modeling. This benchmark demonstrates the growing capability of LLMs in generating functional, parametric CAD models, which could lower the barrier for 3D modeling in architecture and engineering. Antigravity's performance highlights the potential of AI-assisted design tools, though community feedback reveals ongoing concerns about rollout stability and model reliability. The benchmark used the Pantheon as a test case, requiring models to generate OpenSCAD code for the entire structure including interior coffers. Antigravity 2.0 was the only autonomous agent to implement the interior ceiling pattern correctly, while Gemini models were noted for their image understanding and creativity but sometimes lacked precision for CAD.
+Microsoft is now deploying Anthropic's Claude Code across its major engineering teams, including CoreAI and the Experiences & Devices team for Windows, Microsoft 365, and Outlook. Engineers are required to use both Claude Code and GitHub Copilot and provide comparative feedback. This move signals competitive dynamics in the AI coding tool market and validates the usefulness of AI coding agents for non-technical employees. It also puts pressure on GitHub Copilot, Microsoft's own product, as the company evaluates alternative tools. Claude Code is an AI coding agent that runs in the terminal or IDE, with capabilities like code generation, refactoring, and debugging. Microsoft's push includes employees without prior programming experience, who are encouraged to use Claude Code for prototyping.
 
-hackernews · jetter · May 22, 10:38 · [Discussion](https://news.ycombinator.com/item?id=48234090)
+telegram · zaihuapd · May 23, 06:05
 
-**Background**: OpenSCAD is a free, script-based 3D CAD modeling tool that uses its own description language to define geometric primitives and operations. LLMs can generate OpenSCAD code from natural language descriptions, enabling rapid prototyping of parametric designs. Antigravity 2.0 is Google's AI coding assistant that integrates with IDEs and CLI, capable of generating code across multiple languages and domains.
+**Background**: Claude Code is a tool developed by Anthropic that leverages Claude language models to assist with coding tasks. It can be used in the terminal or integrated into IDEs. GitHub Copilot, developed by Microsoft and GitHub, is a competing AI coding assistant that autocompletes code. Microsoft's internal evaluation of both tools suggests a willingness to adopt best-in-class solutions rather than exclusively using its own products.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a></li>
-<li><a href="https://antigravity.google/blog/introducing-google-antigravity-2-0">Google Antigravity Blog: introducing-google- antigravity - 2 - 0</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments show mixed reactions: some users report successful real-world use, like generating a bike part with Claude that printed nearly perfectly, while others criticize Antigravity's forced rollouts and update issues. There is skepticism about the benchmark's representativeness due to its single-model focus, with users noting that LLM performance varies widely across different 3D model types.
-
-**Tags**: `#LLM`, `#OpenSCAD`, `#3D Modeling`, `#Benchmark`, `#AI`
+**Tags**: `#AI coding`, `#Microsoft`, `#Claude Code`, `#GitHub Copilot`, `#software engineering`
 
 ---
 
 <a id="item-14"></a>
-## [Open source Kanban app runs parallel AI agents on each card](https://www.kanbots.dev/) ⭐️ 7.0/10
+## [Microsoft reveals OpenAI's $11.5B quarterly loss](https://t.me/zaihuapd/41537) ⭐️ 8.0/10
 
-Kanbots is an open-source Kanban desktop app that allows users to run parallel AI agents on each card, automating task execution within a visual workflow. This tool merges project management with AI automation, enabling developers to run multiple agents concurrently on tasks, potentially speeding up development while preserving visual oversight. Kanbots is local-first with no cloud dependency, storing everything in a .kanbots/ directory next to the repo using SQLite and worktrees. It runs agents in parallel on each card, which contradicts traditional Kanban's work-in-progress limits.
+Microsoft's latest earnings report disclosed that OpenAI suffered a net loss of approximately $11.5 billion in a single quarter, based on the equity method accounting for its 27% stake, which reduced Microsoft's net profit by $3.1 billion. This revelation underscores the enormous and sustained cash burn required to lead in AI development, challenging the long-term economic viability of even the most prominent AI firms. Microsoft calculated the loss using the equity method: it owns roughly 27% of OpenAI (or 32.5% on a pre-tax basis), implying a quarterly loss exceeding $12 billion on a pre-tax basis. The loss is nearly three times OpenAI's $4.3 billion revenue in the first half of the year.
 
-hackernews · vitriapp · May 22, 18:17 · [Discussion](https://news.ycombinator.com/item?id=48239413)
+telegram · zaihuapd · May 23, 07:40
 
-**Background**: Kanban is a visual workflow management method originating from Toyota that emphasizes limiting work-in-progress and managing flow. AI agents are programs that can autonomously execute tasks such as code generation or testing. Combining them allows automated actions directly from a Kanban board. Parallel agent execution, where multiple agents run simultaneously on independent tasks, is a common pattern in AI automation.
+**Background**: The equity method is an accounting approach used when an investor has significant influence over a company (typically 20-50% ownership). Under this method, the investor records its share of the investee's profits or losses as investment income or loss, adjusting the investment's carrying value accordingly. This disclosure reveals the immense scale of investment needed in AI, as Microsoft has already committed $13 billion to OpenAI.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/idea/multiple-agent-workflow-automation">Build a Multiple-Agent Workflow Automation Solution by using Microsoft Agent Framework - Azure Architecture Center | Microsoft Learn</a></li>
-<li><a href="https://typevar.dev/articles/BloopAI/vibe-kanban">agent - Bridging Human Intent and AI Execution with Terminal- Based ...</a></li>
-<li><a href="https://github.com/KingofPoly/Kanban-MCP">GitHub - KingofPoly/ Kanban -MCP: Kanban - based task management...</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/496165358">长期股权投资——权益法（干货总结） - 知乎</a></li>
+<li><a href="https://baike.baidu.com/item/权益法/9289851">权益法_百度百科 采用权益法核算的长期股权投资账务处理流程（附案例详解） 一文搞懂长期股权投资的核算方法：成本法、权益法和合并法 在阅读||#20998;... 权益法核算的长期股权投资收益_东奥会计在线 【老丁解税】权益法下投资收益的所得税处理解析 【老丁解税】权益法下投资收益的所得税处理解析|股权|纳税|权益性_网...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters note that Kanbots violates core Kanban principles like limiting work-in-progress (kesor). Others raise practical concerns about reviewing AI-generated code output (aitchnyu). Some compare it to similar projects like Vibe Kanban, which is no longer maintained, raising sustainability concerns (KerrickStaley). There are also technical questions about managing separate worktree infrastructures for each agent (nullbio).
-
-**Tags**: `#kanban`, `#agents`, `#open-source`, `#developer-tools`, `#AI`
+**Tags**: `#Microsoft`, `#OpenAI`, `#financial loss`, `#AI`, `#investment`
 
 ---
 
 <a id="item-15"></a>
-## [Datasette Agent: Conversational AI for Data Queries](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 7.0/10
+## [BambuStudio Accused of Violating PrusaSlicer's AGPL License](https://xcancel.com/josefprusa/status/2054602354851254330) ⭐️ 7.0/10
 
-Datasette Agent, a new extensible AI assistant for Datasette, was announced on May 21, 2026, enabling natural language data queries and chart generation via plugins. This integration of LLMs with Datasette democratizes data analysis by allowing non-technical users to query databases conversationally, and its plugin architecture enables extensibility for tasks like charting and image generation. The live demo uses Gemini 3.1 Flash-Lite, a cheap and fast model, to generate SQL queries from natural language; datasette-agent-charts plugin uses Observable Plot for charting.
+Josef Prusa, founder of Prusa Research, publicly accused BambuStudio of violating the AGPL license by failing to comply with its open-source requirements since forking PrusaSlicer. This accusation highlights ongoing challenges in enforcing open-source licenses, especially for dual-use software in 3D printing, and raises concerns about intellectual property protection and potential data mining by closed-source forks. BambuStudio is a proprietary fork of PrusaSlicer, which is licensed under AGPLv3, requiring any modified version distributed over a network to also be open-source. The alleged violation includes failure to release source code changes and possible inclusion of data-mining features.
 
-rss · Simon Willison · May 21, 19:52
+hackernews · Tomte · May 23, 08:24 · [Discussion](https://news.ycombinator.com/item?id=48245862)
 
-**Background**: Datasette is an open-source multi-tool for exploring and publishing data, often used with SQLite databases. LLM is a Python library for interacting with large language models. Datasette Agent combines these to provide a conversational interface.
+**Background**: The GNU Affero General Public License (AGPLv3) is a strong copyleft license that requires users who modify and distribute the software over a network to release the complete source code. PrusaSlicer is a popular open-source 3D printing slicer developed by Prusa Research. Bambu Studio is slicing software for Bambu Lab printers, initially based on PrusaSlicer.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://datasette.io/blog/2026/datasette-agent/">Datasette Agent , an extensible AI assistant for... - Datasette Blog</a></li>
-<li><a href="https://pypi.org/project/datasette-agent-charts/">datasette - agent - charts · PyPI</a></li>
-<li><a href="https://simonwillison.net/2026/May/12/datasette/">Release: datasette 1.0a29 | Simon Willison’s Weblog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">GNU Affero General Public License - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PrusaSlicer">PrusaSlicer - Wikipedia</a></li>
+<li><a href="https://bambulab.com/en/download/studio">Software Bambu Studio | Bambu Lab</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#datasette`, `#ai-assistant`, `#data-analysis`, `#llm`, `#natural-language-querying`
+**Discussion**: Commenters expressed strong concerns about intellectual property and data privacy, with some noting that defending open-source licenses is costly and violations are hard to prove. Others debated the risk of data mining by governments, both in China and the US, and some users vowed to avoid closed-source printers for business prototypes.
+
+**Tags**: `#open source`, `#license violation`, `#3D printing`, `#AGPL`, `#intellectual property`
 
 ---
 
 <a id="item-16"></a>
-## [Zhipu AI Launches GLM-5.1 HighSpeed at 400 tokens/s](https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1-highspeed) ⭐️ 7.0/10
+## [Robin Li: AI large models near explosion point](https://t.me/zaihuapd/41538) ⭐️ 7.0/10
 
-Zhipu AI has released the GLM-5.1 HighSpeed model, achieving an output speed of 400 tokens per second, and is currently opening access to select enterprise customers on its BigModel platform. This speed milestone enables real-time applications such as coding agents, live UI construction, and voice assistants, reducing latency bottlenecks for enterprise AI deployments. The model supports structured outputs including Function Call and JSON, as well as the Model Context Protocol (MCP) for integration with external tools and data sources.
+Baidu CEO Robin Li stated that development of AI large models is near a critical point for application explosion, and revealed that 65% of Baidu's search results now contain generative content, which are prioritized. This signals a major shift in search engine functionality and indicates Baidu's aggressive push to integrate generative AI into its core products, potentially setting a trend for the industry. Baidu started AI reconstruction of all products two years ago, and Li described the search engine overhaul as the most radical among global search engines. The generative content is not only present but prioritized in search results.
 
-telegram · zaihuapd · May 22, 04:45
+telegram · zaihuapd · May 23, 08:40
 
-**Background**: The Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024 to standardize connections between AI models and external data sources. Coding agents are AI-assisted tools that automate code generation, review, and refactoring tasks. High-speed inference is critical for interactive and low-latency use cases like real-time UI building and conversational agents.
+**Background**: AI large models, such as GPT series and Baidu's ERNIE, are deep learning models trained on vast data to generate human-like text. Integrating them into search engines allows for direct answers and summarizations instead of just links, resembling Microsoft's Copilot integration.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://www.anthropic.com/news/model-context-protocol">Introducing the Model Context Protocol \ Anthropic</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#NLP`, `#model inference`, `#speed`, `#enterprise`
+**Tags**: `#AI`, `#large language models`, `#Baidu`, `#generative AI`, `#search engine`
 
 ---
 
 <a id="item-17"></a>
-## [Microsoft Widely Promotes Claude Code Internally, Asks for Copilot Comparison](https://t.me/zaihuapd/41535) ⭐️ 7.0/10
+## [Corsair Adopts CXMT DRAM for DDR5, Prices Expected to Drop](https://thenextweb.com/news/chinese-dram-cxmt-corsair-ddr5-memory-prices) ⭐️ 7.0/10
 
-Microsoft is now widely promoting Anthropic's Claude Code across its core engineering teams, including the CoreAI team and the Experiences & Devices division responsible for Windows, Microsoft 365, and Outlook. Software engineers are required to use both Claude Code and GitHub Copilot and provide comparative feedback. This move signals that AI coding assistants are becoming a standard tool in major tech companies, and that Anthropic's Claude Code is now a serious competitor to Microsoft's own GitHub Copilot. Encouraging non-technical employees to use AI for prototyping could also lower barriers to software development. The promotion applies to Microsoft's most important engineering teams, and even employees without prior coding experience are encouraged to use Claude Code for prototyping. Feedback from the comparison between Claude Code and Copilot will be collected.
+Corsair has begun using DRAM chips from China's ChangXin Memory Technologies (CXMT) in its DDR5 memory modules, marking the first mainstream adoption of Chinese-made DRAM in a major brand's consumer products. This shift introduces a new competitor to the DRAM market dominated by Samsung, SK Hynix, and Micron, potentially lowering DDR5 prices for consumers as global supply tightens due to AI-driven demand for high-bandwidth memory. The Corsair Vengeance DDR5 16GB stick using CXMT chips runs at 6,000 MT/s with CL36 timings, matching mainstream performance. CXMT aims for an IPO in 2026 and expects to increase production capacity further.
 
-telegram · zaihuapd · May 23, 06:05
+telegram · zaihuapd · May 23, 11:17
 
-**Background**: Claude Code is an AI-powered coding assistant developed by Anthropic, the company behind the Claude series of large language models. Claude models are trained using 'constitutional AI' to improve ethical compliance. GitHub Copilot is Microsoft's own AI coding assistant built on OpenAI's technology. The adoption of Claude Code by Microsoft, which also owns Copilot, highlights the competitive landscape in AI-assisted software development.
+**Background**: The global DRAM market has long been controlled by three major players: Samsung, SK Hynix, and Micron. In recent years, demand for high-bandwidth memory used in AI accelerators has surged, diverting production away from consumer DDR5 modules and causing shortages. ChangXin Memory Technologies (CXMT) is a Chinese DRAM manufacturer that started mass-producing DDR5 chips in late 2024, offering an alternative supply source.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
-<li><a href="https://code.claude.com/docs/en/overview">Overview - Claude Code Docs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies">ChangXin Memory Technologies - Wikipedia</a></li>
+<li><a href="https://www.tomshardware.com/pc-components/ddr5/chinese-memory-maker-cxmt-enters-the-mainstream-consumer-memory-with-corsair-vengeance-ddr5-kit-chinese-made-dram-emerges-as-an-antidote-for-crushing-shortages">Chinese memory maker CXMT enters mainstream... | Tom's Hardware</a></li>
+<li><a href="https://www.digitalfoundry.net/news/2026/05/corsair-taps-chinese-ddr5-for-its-ram-modules-while-china-developed-gpus-are-improving-fast">Corsair Taps Chinese DDR5 for Its RAM Modules... | Digital Foundry</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI编程`, `#微软`, `#Claude Code`, `#GitHub Copilot`, `#行业动态`
+**Discussion**: Community discussions on Reddit highlight cautious optimism, noting that even if US export restrictions block CXMT chips from entering the US market, the increased global supply could lower prices elsewhere and reduce overall demand pressure. Some users question long-term reliability and compatibility, but early tests show equivalent performance.
+
+**Tags**: `#DRAM`, `#DDR5`, `#Corsair`, `#CXMT`, `#memory`, `#supply chain`
 
 ---
 
 <a id="item-18"></a>
-## [uv 0.11.16 released with Git archive deps and audit features](https://github.com/astral-sh/uv/releases/tag/0.11.16) ⭐️ 6.0/10
+## [China's daily token calls surge over 1000x in 2 years, hit 140 trillion in March 2025](https://t.me/zaihuapd/41542) ⭐️ 7.0/10
 
-uv 0.11.16 adds support for direct archive dependencies in Git repositories, introduces preview audit features, and includes several bug fixes and configuration enhancements. This release improves uv's flexibility for projects using archived dependencies in Git, and the new audit features help detect malware and unsafe configurations, strengthening supply chain security for Python developers. The preview audit features include specialized malformed OSV error handling and rejection of locked malware installations. Additionally, the new UV_NO_SYSTEM_CONFIG environment variable allows users to disable reading system-level configuration.
+The National Data Administration announced that China's daily token (Token) call volume exceeded 140 trillion in March 2025, up from 100 billion in early 2024, marking a more than 1000-fold increase in two years. This explosive growth signals rapid commercialization of AI in China and the formation of a new value system around token-based data exchange, which is crucial for the AI industry's business model and data economy. The token call volume reached 100 trillion by the end of 2025, and the National Data Administration highlighted that tokens are measurable, pricable, and tradable, facilitating data marketization. The growth reflects progress in reforming data element marketization.
 
-github · github-actions[bot] · May 21, 22:11
+telegram · zaihuapd · May 23, 14:36
 
-**Background**: uv is a fast Python package manager written in Rust, known for its speed and reliability. Direct archive dependencies allow referencing compressed archives (like .tar.gz) within Git repositories as package sources, which is useful for projects that vendor dependencies or use custom archives.
+**Background**: In the context of large language models (LLMs), a token is the smallest unit of text that a model processes, such as a word, subword, or character. Tokenization breaks down input text into tokens for model processing. The rapid increase in token calls indicates soaring usage of AI services, as each request to an LLM consumes numerous tokens.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.astral.sh/uv/guides/install-python/">Installing and managing Python | uv</a></li>
+<li><a href="https://www.mexc.co/news/985902">令牌、代币、通证还 是 词 元 ？— — Token ... | MEXC News</a></li>
+<li><a href="https://codebitwave.com/artificial-intelligence-101-tokenizer-and-one-hot/">Artificial Intelligence 101: Tokenizer and One-Hot – CODEBITWAVE</a></li>
+<li><a href="https://paper.people.com.cn/rmrb/pc/attachement/202604/03/ebaa4672-39f2-4da9-a084-e137dd7f95de.pdf">paper.people.com.cn/rmrb/pc/attachement/202604/03/ebaa4672-39...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#uv`, `#python`, `#package-manager`, `#release`, `#tooling`
+**Tags**: `#AI`, `#China`, `#tokenization`, `#data economy`, `#AI infrastructure`
 
 ---
 
 <a id="item-19"></a>
-## [Deno 2.8 Released with New 'deno pack' Command](https://deno.com/blog/v2.8) ⭐️ 6.0/10
+## [Deep Dive into the HTML <dl> Element Semantics](https://benmyers.dev/blog/on-the-dl/) ⭐️ 6.0/10
 
-Deno 2.8 has been released, introducing a new 'deno pack' command for safe and simple packaging of JavaScript and TypeScript applications. This release reinforces Deno's position as a secure and modern runtime, particularly with its permission model and native TypeScript support, keeping it competitive against Node.js and Bun. The new 'deno pack' command simplifies bundling for distribution, though the full changelog includes other improvements and bug fixes typical of a point release.
+Ben Myers published a detailed blog post exploring the HTML <dl> element, its semantics, and proper usage in modern web development, including examples like a D&D stat sheet. This article clarifies the correct semantic use of <dl> in HTML5, which is often misunderstood as merely a definition list, and emphasizes its role in accessibility and clean markup. The <dl> element is no longer just a 'definition list' in HTML5; it now represents an 'association list' of name-value groups. The article also addresses ARIA role restrictions and practical nesting patterns.
 
-hackernews · roflcopter69 · May 22, 11:23 · [Discussion](https://news.ycombinator.com/item?id=48234380)
+hackernews · ravenical · May 23, 13:03 · [Discussion](https://news.ycombinator.com/item?id=48247325)
 
-**Background**: Deno is a JavaScript and TypeScript runtime built on V8, Rust, and Tokio, designed as a secure alternative to Node.js with features like a built-in permission system and native TypeScript execution. It competes with Node.js and the newer Bun runtime, which has gained attention for its speed and all-in-one toolkit.
+**Background**: The HTML <dl> element was traditionally used for definition lists (e.g., glossaries). In HTML5, its semantics were broadened to represent any kind of name-value association, such as metadata or game stats. This change has implications for accessibility and how screen readers interpret the content.
 
-**Discussion**: Community members praised Deno's permission model and stability, but some questioned Bun's rapid growth and noted Bun's acquisition by Anthropic. A few users expressed concerns about Deno's long-term funding, as the authors have declined donations.
+**Discussion**: Community members raised several points: chrismorgan noted ARIA role limitations for <dl> and restrictions on aria-label. jimbosis pointed out the world's first website extensively uses <dl>. captn3m0 expressed surprise about the name change from 'definition list' to 'association list'. cloud-oak asked about nesting <dl> elements, which the article supports. Demiurge praised <dl> and criticized past misuse of tables.
 
-**Tags**: `#deno`, `#javascript`, `#typescript`, `#runtime`, `#webdev`
+**Tags**: `#HTML`, `#accessibility`, `#web development`, `#semantic markup`
 
 ---
 
 <a id="item-20"></a>
-## [Forth-inspired language for building websites unveiled](https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites) ⭐️ 6.0/10
+## [Rubish: A Unix shell written in pure Ruby](https://github.com/amatsuda/rubish) ⭐️ 6.0/10
 
-A developer has created a new programming language inspired by Forth, designed specifically for writing websites, and shared it as a hobby project. The language uses stack-based, concatenative syntax to emit HTML directly, and was developed with LLM assistance. This project highlights the growing trend of using LLM-assisted development to quickly prototype niche languages, and it sparks community interest in concatenative programming for web development. While not groundbreaking, it demonstrates how hobbyist experiments can explore alternative paradigms for building websites. The language allows defining words like `: h1 ( s -- ) "<h1>" emit . "</h1>" emit ;` to emit HTML tags, using `.` and `emit` for output. The project compiles to native code and WebAssembly, supporting server-side and client-side rendering, and includes adaptive compression and multiple persistence types.
+A new Unix shell called Rubish, implemented entirely in pure Ruby, has been released on GitHub, enabling users to write shell scripts using Ruby syntax. This project bridges the gap between shell scripting and Ruby, potentially making shell tasks more accessible and powerful for Ruby developers, while also fueling discussions about the pros and cons of language-specific shells. Rubish is not a drop-in replacement for bash; it focuses on Ruby-based scripting. Community comments express concerns about code quality due to possible AI-assisted development and potential performance issues compared to traditional shells.
 
-hackernews · speckx · May 22, 15:00 · [Discussion](https://news.ycombinator.com/item?id=48236887)
+hackernews · winebarrel · May 23, 06:32 · [Discussion](https://news.ycombinator.com/item?id=48245262)
 
-**Background**: Forth is a stack-based, extensible programming language using postfix notation and an interactive interpreter, known for its minimalism and efficiency. Concatenative programming replaces function application with function composition, where juxtaposition of expressions denotes composition, and all functions operate on a single implicit data stack. This language adapts those concepts for web development, allowing developers to write HTML in a Forth-like style.
+**Background**: A Unix shell is a command-line interface for interacting with the operating system. Traditional shells like bash use their own scripting languages, but Rubish leverages Ruby, a high-level, readable language. This allows Ruby developers to use familiar syntax and libraries for shell tasks.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/Forth_(programming_language)">Forth (programming language)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Concatenative_programming_language">Concatenative programming language - Wikipedia</a></li>
-<li><a href="https://concatenative.org/wiki/view/Concatenative+language">Concatenative language</a></li>
+**Discussion**: Reactions are mixed: some find the concept amazing but question practicality due to speed and vi input issues; others worry about code quality from AI-assisted coding, while a few appreciate the clever naming. Overall, the project is seen as an interesting experiment.
 
-</ul>
-</details>
-
-**Discussion**: Comments express amusement and curiosity, with one user suggesting the language is perfect for personal blogs. Another user asks for clarification on language semantics, while a third notes the site is down due to the 'HN Hug of Death'. Overall sentiment is positive, with appreciation for the weirdness and the enabling power of LLMs.
-
-**Tags**: `#forth`, `#web-development`, `#programming-languages`, `#hobbyist`, `#llm-assistance`
-
----
-
-<a id="item-21"></a>
-## [FTC Fines Cox Media Group for Fake AI Listening Service](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 6.0/10
-
-The US Federal Trade Commission (FTC) announced that Cox Media Group and two other firms will pay nearly $1 million to settle charges that they misled customers about an AI-powered 'Active Listening' marketing service, which they claimed could eavesdrop on consumers' smart devices to target ads, but in reality did not use voice data at all. This settlement underscores the FTC's increasing scrutiny of deceptive AI marketing claims and serves as a warning to companies that exaggerate AI capabilities. It also reinforces that hiding opt-in consent in lengthy terms of service is not sufficient for invasive data collection. The companies claimed the service used 'voice data' from smart devices, but the FTC found they were merely reselling email lists at a markup. The FTC also alleged that the companies falsely represented that consumers had opted in by agreeing to app terms of service.
-
-rss · Simon Willison · May 22, 04:48
-
-**Background**: The 'active listening' controversy dates back to 2024 when Cox Media Group was caught pitching an advertising service based on listening to smart device conversations. The FTC's investigation revealed that the service did not actually use voice data. This case adds to the ongoing conspiracy theory that mobile devices spy on users through microphones for ad targeting, which has been consistently debunked.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.emarketer.com/content/faq-on-iot-connected-devices--marketing-opportunities-with-cars--wearables--smart-home">FAQ on IoT and connected devices : Marketing opportunities with cars...</a></li>
-<li><a href="https://forums.puri.sm/t/audio-from-smart-devices-used-for-advertising/24521">Audio from smart devices used for advertising ... - Purism community</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#regulation`, `#privacy`, `#deceptive practices`, `#FTC`
+**Tags**: `#ruby`, `#shell`, `#unix`, `#open-source`
 
 ---
