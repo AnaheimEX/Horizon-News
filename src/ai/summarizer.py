@@ -229,7 +229,7 @@ class DailySummarizer:
             lines.append(f"**{labels['discussion']}**: {discussion}")
 
         if item.ai_tags:
-            tags_str = ", ".join([f"`#{t}`" for t in item.ai_tags])
+            tags_str = ", ".join([f"[`#{t}`](https://github.com/AnaheimEX/Horizon-News/search?q={t}&type=issues&utf8=%E2%9C%93)" for t in item.ai_tags])
             lines.append("")
             lines.append(f"**{labels['tags']}**: {tags_str}")
 
