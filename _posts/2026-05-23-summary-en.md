@@ -5,258 +5,447 @@ date: 2026-05-23
 lang: en
 ---
 
-> From 37 items, 11 important content pieces were selected
+> From 48 items, 20 important content pieces were selected
 
 ---
 
-1. [Anthropic Glasswing Update: 90.6% AI Vulnerability Validation Rate](#item-1) ⭐️ 9.0/10
-2. [ByteDance Open-Sources Lance: 3B Unified Multimodal Model](#item-2) ⭐️ 9.0/10
-3. [Apple open-sources corecrypto with formal verification for quantum-safe algorithms](#item-3) ⭐️ 9.0/10
-4. [Antigravity 2.0 Tops OpenSCAD Architectural 3D LLM Benchmark](#item-4) ⭐️ 8.0/10
-5. [yt-dlp deprecates Bun support, citing compatibility and security](#item-5) ⭐️ 8.0/10
-6. [Anna's Archive asks LLMs to donate for using its data](#item-6) ⭐️ 8.0/10
-7. [DeepSeek Makes V4 Pro Price Cut Permanent](#item-7) ⭐️ 8.0/10
-8. [AI memory demand raises consumer electronics prices](#item-8) ⭐️ 8.0/10
-9. [FTC Fines Cox Media Group $930K for Fake AI Listening Service](#item-9) ⭐️ 8.0/10
-10. [China Cracks Down on Illegal Cross-Border Securities, Investigating Tiger, Futu, Changqiao](#item-10) ⭐️ 8.0/10
-11. [Microsoft Internally Rolls Out Claude Code, Pitches vs Copilot](#item-11) ⭐️ 8.0/10
+1. [Apple Open-Sources corecrypto with Formal Verification of Quantum-Safe Algorithms](#item-1) ⭐️ 9.0/10
+2. [Anthropic Updates Project Glasswing with High Accuracy Vulnerability Detection](#item-2) ⭐️ 8.0/10
+3. [Decades of sleep research yield new sleep apnea drug](#item-3) ⭐️ 8.0/10
+4. [Microsoft cancels Claude Code licenses, pushes Copilot CLI](#item-4) ⭐️ 8.0/10
+5. [CISA data leak after contractor exposes secrets on GitHub](#item-5) ⭐️ 8.0/10
+6. [Antigravity 2.0 Tops OpenSCAD LLM Benchmark for Architectural 3D Models](#item-6) ⭐️ 8.0/10
+7. [Memory shortage from AI demand reprices consumer electronics](#item-7) ⭐️ 8.0/10
+8. [Datasette Agent: AI Assistant for Data Querying](#item-8) ⭐️ 8.0/10
+9. [ByteDance open-sources 3B multimodal model Lance](#item-9) ⭐️ 8.0/10
+10. [Tencent's Ximalaya Acquisition Approved with Exclusive Rights Condition](#item-10) ⭐️ 8.0/10
+11. [China cracks down on illegal cross-border securities, probes Tiger Brokers, Futu](#item-11) ⭐️ 8.0/10
+12. [Cloudflare 25-Minute Global Outage Hits 28% of HTTP Traffic](#item-12) ⭐️ 8.0/10
+13. [Shipping a laptop to a Ugandan refugee camp: bureaucratic ordeal](#item-13) ⭐️ 7.0/10
+14. [Why Japanese companies diversify so much](#item-14) ⭐️ 7.0/10
+15. [Deno 2.8 released with new pack command and permission debate](#item-15) ⭐️ 7.0/10
+16. [Kanbots: open-source Kanban app runs parallel AI agents on every card](#item-16) ⭐️ 7.0/10
+17. [FBI Director's Apparel Site Hit by ClickFix Malware Attack](#item-17) ⭐️ 7.0/10
+18. [FTC Fines Cox Media Group $1M for Fake AI Listening Ads](#item-18) ⭐️ 7.0/10
+19. [Zhipu AI Launches GLM-5.1-HighSpeed at 400 Tokens/s](#item-19) ⭐️ 7.0/10
+20. [Microsoft widely promotes Claude Code internally, encourages non-technical staff](#item-20) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic Glasswing Update: 90.6% AI Vulnerability Validation Rate](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 9.0/10
+## [Apple Open-Sources corecrypto with Formal Verification of Quantum-Safe Algorithms](https://security.apple.com/blog/formal-verification-corecrypto/) ⭐️ 9.0/10
 
-Anthropic released an initial update for Project Glasswing, reporting that out of 1,752 high- or critical-rated vulnerability assessments by independent security firms, 90.6% were confirmed as true positives, with 62.4% deemed high or critical severity. This demonstrates that AI-powered vulnerability detection can achieve high accuracy in real-world codebases, potentially transforming automated security auditing for critical infrastructure and large-scale software projects. The true positive rate of 90.6% and high/critical severity confirmation of 62.4% were based on independent assessments by six security research firms. The update covers only high-severity vulnerability candidates reported so far.
+Apple has open-sourced its corecrypto library, which includes implementations of the post-quantum algorithms ML-KEM and ML-DSA, along with formal verification proofs that the C code and ARM64 assembly match the NIST standards. This is a major step for cryptography, as it provides mathematically verified implementations of quantum-safe algorithms running on billions of devices, setting a new standard for software assurance in the industry. The formal verification was done using Apple's custom verification tools and Isabelle theory libraries, and the source code is available on GitHub. corecrypto underpins cryptographic operations on over 2.5 billion active devices.
 
-hackernews · louiereederson · May 22, 19:31 · [Discussion](https://news.ycombinator.com/item?id=48240419)
+telegram · zaihuapd · May 23, 04:49
 
-**Background**: Project Glasswing is an Anthropic initiative using Claude, their AI assistant, to analyze source code for security vulnerabilities in critical open-source projects. Traditional static analysis tools can catch common flaws but often miss complex logic errors or hard-to-detect vulnerabilities. This update provides early evidence of AI's effectiveness in supplementing existing security workflows.
+**Background**: ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) and ML-DSA (Module-Lattice-Based Digital Signature Algorithm) are post-quantum cryptographic standards selected by NIST in 2024 to resist attacks from future quantum computers. Formal verification uses mathematical proofs to ensure that software implementations exactly follow the intended specification, eliminating entire classes of bugs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/research/glasswing-initial-update">Project Glasswing: An initial update - Anthropic</a></li>
-<li><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era - Anthropic</a></li>
-<li><a href="https://www.anthropic.com/project/glasswing">Project Glasswing - Anthropic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ML-KEM">ML-KEM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ML-DSA">ML-DSA</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments are mixed: some users share positive experiences with similar tools achieving ~90% accuracy, while others, including curl's maintainer Daniel Stenberg, express skepticism about the tool's improvement over existing static analyzers. Additionally, some question whether teams should first adopt cheaper static analysis before investing in expensive LLM-based tools.
-
-**Tags**: `#AI safety`, `#cybersecurity`, `#code analysis`, `#Anthropic`
+**Tags**: `#post-quantum cryptography`, `#formal verification`, `#apple`, `#cryptography`, `#open source`
 
 ---
 
 <a id="item-2"></a>
-## [ByteDance Open-Sources Lance: 3B Unified Multimodal Model](https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A) ⭐️ 9.0/10
+## [Anthropic Updates Project Glasswing with High Accuracy Vulnerability Detection](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 8.0/10
 
-ByteDance has open-sourced Lance, a 3B-parameter unified multimodal model that handles image understanding, video understanding, image generation, video generation, and cross-modal editing in a single architecture. Lance achieves state-of-the-art results on GenEval and VBench benchmarks with only 3B parameters, demonstrating that efficient unified multimodal models are feasible and could reduce dependency on larger, resource-intensive models. Lance employs a dual-stream mixture-of-experts architecture initialized from Qwen2.5-VL and uses modality-aware position encoding to resolve sequence boundary confusion. The model is released under the Apache 2.0 license on Hugging Face.
+Anthropic released an initial update on Project Glasswing, reporting that its AI model achieved a 90.6% true positive rate for high- or critical-severity vulnerabilities in code, verified by independent security firms. This could significantly improve automated vulnerability detection in software, potentially catching critical issues that static analysis tools miss, and shift how security teams integrate AI into their workflows. Out of 1,752 assessed high- or critical-rated vulnerabilities, 90.6% (1,587) were true positives, and 62.4% (1,094) were confirmed as high or critical severity; the model, Claude Mythos, is part of Anthropic's cybersecurity initiative.
 
-telegram · zaihuapd · May 22, 06:40
+hackernews · louiereederson · May 22, 19:31 · [Discussion](https://news.ycombinator.com/item?id=48240419)
 
-**Background**: Multimodal AI models typically require separate models for understanding (e.g., captioning) and generation (e.g., image synthesis), leading to fragmented pipelines. Lance unifies these tasks in a single model by using a shared context with specialized expert pathways, enabling joint learning and efficient inference.
+**Background**: Project Glasswing is Anthropic's industry-wide cybersecurity initiative launched in April 2026 to secure critical software using advanced AI. Claude Mythos is a frontier model trained by Anthropic for code analysis. Traditional static analysis tools can catch common vulnerabilities but often miss complex logic issues, leading to potential security flaws in production code.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2605.18678">Lance: Unified Multimodal Modeling by Multi-Task Synergy</a></li>
-<li><a href="https://www.marktechpost.com/2026/05/21/one-model-three-modalities-bytedance-releases-lance-for-image-and-video-understanding-generation-and-editing/">One Model, Three Modalities: ByteDance Releases Lance for ...</a></li>
-<li><a href="https://www.mlhive.com/2026/05/bytedance-lance-unified-multimodal-architecture">Why ByteDance Lance is the Next Evolution in Multimodal AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Project_Glasswing">Project Glasswing</a></li>
+<li><a href="https://grokipedia.com/page/Project_Glasswing">Project Glasswing</a></li>
+<li><a href="https://www.anthropic.com/glasswing">Project Glasswing : Securing critical software for the AI era \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#multimodal`, `#open-source`, `#image-generation`, `#video-generation`, `#ByteDance`
+**Discussion**: Comments show mixed reactions: user mdeeks praised the tool's accuracy and integration, while curl maintainer Daniel Steinberg expressed skepticism, stating he saw no evidence of extraordinary performance over existing tools. Other comments debated the cost-benefit versus traditional linters, noting that many teams don't even use basic static analysis.
+
+**Tags**: `#AI`, `#cybersecurity`, `#vulnerability detection`, `#code analysis`, `#Anthropic`
 
 ---
 
 <a id="item-3"></a>
-## [Apple open-sources corecrypto with formal verification for quantum-safe algorithms](https://security.apple.com/blog/formal-verification-corecrypto/) ⭐️ 9.0/10
+## [Decades of sleep research yield new sleep apnea drug](https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug) ⭐️ 8.0/10
 
-On May 22, Apple open-sourced the corecrypto library, which includes implementations of the quantum-safe algorithms ML-KEM and ML-DSA, along with end-to-end formal verification proofs that mathematically guarantee their correctness. This marks a significant step for deploying post-quantum cryptography at scale: the formal verification ensures that the implementations precisely match NIST standards, providing a high level of assurance for the billions of Apple devices that rely on corecrypto for secure communications. The formal verification covers both the C implementation and hand-optimized ARM64 assembly code, aligning with NIST's ML-KEM (FIPS 203) and ML-DSA (FIPS 204) standards. Apple also released custom verification tools and Isabelle theory libraries for independent expert review.
+Researchers have developed a novel drug for sleep apnea based on decades of sleep research, potentially offering an alternative to CPAP therapy. The drug targets specific neural circuits to maintain airway muscle tone during sleep. Sleep apnea affects millions worldwide and current standard treatment CPAP has low long-term adherence. A pharmaceutical option could significantly improve patient outcomes and quality of life. The drug reduces apnea events by only 4 per hour, which may be most beneficial for mild sleep apnea rather than moderate to severe cases. It was discovered by mapping the neural circuits that control airway muscles.
 
-telegram · zaihuapd · May 23, 04:49
+hackernews · colinprince · May 22, 22:05 · [Discussion](https://news.ycombinator.com/item?id=48242278)
 
-**Background**: ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) and ML-DSA (Module-Lattice-Based Digital Signature Algorithm) are post-quantum cryptographic algorithms standardized by NIST in 2024 to resist attacks from future quantum computers. Formal verification uses mathematical proofs, often via theorem provers like Isabelle, to ensure that code exactly implements its specification, eliminating entire classes of bugs.
+**Background**: Sleep apnea is a condition where breathing repeatedly stops and starts during sleep, often due to airway collapse. CPAP machines keep the airway open with pressurized air but many patients find them uncomfortable. A drug that activates airway muscles could provide a simpler treatment.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/ML-KEM">ML-KEM - Wikipedia</a></li>
-<li><a href="https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards">NIST Releases First 3 Finalized Post-Quantum Encryption ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)">Isabelle (proof assistant) - Wikipedia</a></li>
+**Discussion**: Community comments show mixed reactions: some users share personal CPAP experiences and tips, while others question the drug's efficacy noting it only reduces events by 4 per hour, suggesting it may only help mild cases. There is also discussion about alternative treatments like posture correction.
 
-</ul>
-</details>
-
-**Tags**: `#cryptography`, `#formal verification`, `#quantum-safe`, `#Apple`, `#open source`
+**Tags**: `#sleep apnea`, `#drug discovery`, `#medical research`, `#health`, `#CPAP`
 
 ---
 
 <a id="item-4"></a>
-## [Antigravity 2.0 Tops OpenSCAD Architectural 3D LLM Benchmark](https://modelrift.com/blog/openscad-llm-benchmark/) ⭐️ 8.0/10
+## [Microsoft cancels Claude Code licenses, pushes Copilot CLI](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad) ⭐️ 8.0/10
 
-A new benchmark for LLM-generated OpenSCAD architectural models has been topped by Google's Antigravity 2.0 agent, which produced a model of the Pantheon with impressive interior ceiling coffers visible through the oculus. This benchmark introduces a novel evaluation for AI code generation in 3D modeling, highlighting the potential of LLMs to create complex architectural geometry. The interior detailing achieved by Antigravity 2.0 demonstrates a significant step toward autonomous 3D design. The benchmark uses the Pantheon as a single test case with one attempt per model, which some commenters argue is insufficient for generalization. Antigravity 2.0 was the only autonomous agent to implement the Pantheon's signature interior ceiling pattern.
+Microsoft has begun canceling Claude Code licenses for its developers, effective June 30, 2026, steering them toward its own GitHub Copilot CLI tool. This move signals Microsoft's strategic shift away from third-party AI coding tools, potentially reshaping developer tooling choices and raising questions about the economics of AI agentic tools versus human-in-the-loop approaches. The Claude Code pilot launched in December 2025 reportedly consumed Microsoft's 2026 yearly AI budget spend within a short period, leading to the cancellation. GitHub Copilot CLI is a command-line agent that works with issues, pull requests, and parallelized subagents.
 
-hackernews · jetter · May 22, 10:38 · [Discussion](https://news.ycombinator.com/item?id=48234090)
+hackernews · robertkarl · May 22, 17:32 · [Discussion](https://news.ycombinator.com/item?id=48238896)
 
-**Background**: OpenSCAD is a free, script-based 3D CAD software that uses its own programming language to define geometric shapes. This makes it suitable for LLMs to generate 3D models as code. The benchmark evaluates how well AI agents can produce accurate architectural models in OpenSCAD.
+**Background**: Claude Code is an AI-powered coding assistant from Anthropic that runs in the terminal, helping developers generate code, fix bugs, and automate tasks. GitHub Copilot CLI is Microsoft's competing command-line tool that integrates with GitHub workflows. Microsoft's decision reflects a broader industry trend of platform vendors favoring their own AI tools over third-party alternatives.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a></li>
-<li><a href="https://antigravity.google/blog/introducing-google-antigravity-2-0">Google Antigravity Blog: introducing-google- antigravity - 2 - 0</a></li>
+<li><a href="https://code.claude.com/docs/en/overview">Overview - Claude Code Docs</a></li>
+<li><a href="https://github.com/features/copilot/cli/">GitHub Copilot CLI</a></li>
+<li><a href="https://developer.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course">Get started with GitHub Copilot CLI: A free, hands-on course</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are mixed: some users are impressed by the interior detailing, while others criticize Antigravity's forced replacement of Gemini CLI and IDE update issues. Several commenters also question the benchmark's design, noting that a single test case and one attempt do not provide robust evidence.
+**Discussion**: Community comments highlight that Claude Code is token-expensive, with one user noting a pilot burned through monthly allowance in a week, while DeepSeek was far more cost-effective. Another user questioned the economics of replacing developer salaries with expensive AI tools, and a comment revealed the pilot consumed Microsoft's 2026 yearly AI spend target.
 
-**Tags**: `#LLM`, `#OpenSCAD`, `#3D modeling`, `#benchmark`, `#AI code generation`
+**Tags**: `#Microsoft`, `#Claude Code`, `#Copilot CLI`, `#AI coding tools`, `#token economy`
 
 ---
 
 <a id="item-5"></a>
-## [yt-dlp deprecates Bun support, citing compatibility and security](https://github.com/yt-dlp/yt-dlp/issues/16766) ⭐️ 8.0/10
+## [CISA data leak after contractor exposes secrets on GitHub](https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/) ⭐️ 8.0/10
 
-yt-dlp has deprecated support for the Bun JavaScript runtime, citing foreseeable compatibility and security issues. The decision was made in response to Bun's ongoing rewrite from Zig to Rust, which introduces uncertainty. This deprecation affects users who rely on yt-dlp with Bun, potentially forcing them to switch to Node.js or Deno. It also highlights growing tensions in the open-source community around runtime choices and the impact of corporate acquisitions (Bun's acquisition by Anthropic) on project direction. The deprecation was announced in GitHub issue #16766, with over 450 comments. The yt-dlp maintainers did not provide specific technical details but mentioned security concerns tied to Bun's Rust rewrite. The rewrite has not yet been released, leading some community members to question the engineering basis of the decision.
+A contractor working with CISA accidentally exposed sensitive data by using a GitHub repository as a scratchpad, leading to a data leak. Lawmakers are demanding answers, and CISA is working to contain the breach. This incident highlights ongoing risks in government cybersecurity, especially when human error bypasses technical controls. It could undermine trust in CISA's ability to protect its own data and prompt stricter security measures. The leak involved secrets stored in a GitHub repository used for synchronization. CISA stated no sensitive data was compromised, but community members dispute that claim given the nature of the exposed information.
 
-hackernews · tamnd · May 22, 17:24 · [Discussion](https://news.ycombinator.com/item?id=48238789)
+hackernews · speckx · May 22, 16:54 · [Discussion](https://news.ycombinator.com/item?id=48238429)
 
-**Background**: yt-dlp is a popular open-source YouTube downloader. Bun is a fast, all-in-one JavaScript runtime originally written in Zig, designed as a drop-in replacement for Node.js. Recently, Oven-sh (the company behind Bun) was acquired by Anthropic, and Bun announced a rewrite from Zig to Rust, sparking concerns about codebase maintainability and security.
+**Background**: CISA, the Cybersecurity and Infrastructure Security Agency, is a U.S. government agency responsible for protecting critical infrastructure. Git repositories are commonly used for code version control, but storing secrets in them is a well-known security risk. Contractors often have access to sensitive systems, making their security practices crucial.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
-<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
+**Discussion**: Comments express skepticism about CISA's assurances, with one user recalling a prior leak of SF-86 forms. Another user questions why fundamental Git security practices were ignored. Some debate whether the problem is technical or human, with a comment quoting a perspective that technical controls cannot fully prevent such human errors.
 
-</ul>
-</details>
-
-**Discussion**: Community opinions are divided. Some users support the decision, noting that maintaining compatibility with a rapidly changing runtime is unsustainable. Others, like user johnfn, argue the move is more political than technical, as the Rust rewrite hasn't landed yet. User hootz expressed sadness about Bun's trajectory after the Anthropic acquisition.
-
-**Tags**: `#yt-dlp`, `#Bun`, `#runtime`, `#deprecation`, `#Rust rewrite`
+**Tags**: `#cybersecurity`, `#data breach`, `#CISA`, `#government`, `#GitHub`
 
 ---
 
 <a id="item-6"></a>
-## [Anna's Archive asks LLMs to donate for using its data](https://annas-archive.gl/blog/llms-txt.html) ⭐️ 8.0/10
+## [Antigravity 2.0 Tops OpenSCAD LLM Benchmark for Architectural 3D Models](https://modelrift.com/blog/openscad-llm-benchmark/) ⭐️ 8.0/10
 
-Anna's Archive published a blog post humorously addressing LLMs, asking them to donate in exchange for using their copyrighted data, highlighting the ethical and legal issues of AI training data sourcing. This post reignites the debate on AI training data ethics, copyright infringement, and the role of shadow libraries, potentially impacting AI companies' data acquisition practices and the open knowledge movement. The blog post is humorous but carries a serious message, referencing how LLMs likely trained on Anna's Archive data. Anna's Archive has faced criticism for reportedly charging AI companies for expedited access to pirated materials.
+A new benchmark, the OpenSCAD LLM Benchmark, tests AI models on generating OpenSCAD code for the Pantheon; Google's Antigravity 2.0 agent achieved the highest score, including implementing interior ceiling details. This benchmark introduces a novel, visually-driven evaluation for LLMs in parametric 3D modeling, highlighting the potential for AI-assisted architectural design and accessible 3D printing workflows. Antigravity 2.0 was the only autonomous agent that implemented the Pantheon's signature interior square coffers visible through the oculus. The benchmark evaluated six models, including Gemini, Claude, and GPT-4, based on adherence to reference images.
 
-hackernews · janandonly · May 22, 11:28 · [Discussion](https://news.ycombinator.com/item?id=48234413)
+hackernews · jetter · May 22, 10:38 · [Discussion](https://news.ycombinator.com/item?id=48234090)
 
-**Background**: Shadow libraries are unauthorized online repositories that host free copies of paywalled content like books and academic papers. Anna's Archive is a metasearch engine aggregating records from Z-Library, Sci-Hub, and Library Genesis, launched in 2022 after Z-Library was taken down.
+**Background**: OpenSCAD is a script-only 3D CAD modeller that uses its own description language to define geometric primitives and operations. This benchmark tasks LLMs with producing OpenSCAD code from images of a complex architectural structure, testing both code generation and spatial reasoning. Antigravity 2.0 is Google's latest agentic coding tool, updated at IO 2026.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Anna's_Archive">Anna's Archive - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Shadow_library">Shadow library - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a></li>
+<li><a href="https://modelrift.com/blog/openscad-llm-benchmark/">OpenSCAD LLM Benchmark: Building the Pantheon | ModelRift Blog</a></li>
+<li><a href="https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/">Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026 | TechCrunch</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments show mixed reactions: some find the request humorous and support Anna's Archive for helping students, while others criticize it for selling access to AI companies, highlighting the tension between free knowledge and ethical concerns.
+**Discussion**: Community members shared mixed experiences: one praised Claude for generating a functional OpenSCAD part from photos, while another criticized Antigravity's rollout issues, requiring browser login each time. Some questioned the benchmark's conclusiveness due to single-model testing, noting that Gemini models showed the least jagged performance in their own tests.
 
-**Tags**: `#AI training data`, `#copyright`, `#piracy`, `#data ethics`, `#LLM`
+**Tags**: `#OpenSCAD`, `#LLM`, `#benchmark`, `#3D modeling`, `#AI agent`
 
 ---
 
 <a id="item-7"></a>
-## [DeepSeek Makes V4 Pro Price Cut Permanent](https://api-docs.deepseek.com/quick_start/pricing) ⭐️ 8.0/10
+## [Memory shortage from AI demand reprices consumer electronics](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
 
-DeepSeek has permanently reduced the API pricing for its V4 Pro model to one-quarter of the original price, making the previous 75% discount permanent after May 31, 2026. This aggressive pricing strategy could disrupt the AI API market, making high-performance models more accessible to developers and smaller companies, while putting pressure on competitors to match the low cost. The price cut applies to the V4 Pro model after a promotional period ending on May 31, 2026; additionally, input cache hit prices have been reduced to as low as 0.8% of the input price for V4 Pro, offering extremely low costs for cached requests.
-
-hackernews · Tiberium · May 22, 15:59 · [Discussion](https://news.ycombinator.com/item?id=48237663)
-
-**Background**: DeepSeek is a Chinese AI research company known for open-sourcing models and publishing research. Its V4 Pro is a large language model (LLM) that competes with offerings from OpenAI, Google, and others. API pricing is typically per token, and caching discounts reward repeated use of the same prompts.
-
-**Discussion**: Commenters expressed excitement over the value, with many noting the model's high quality and low price. However, some raised concerns about privacy, as DeepSeek's policy allows use of user data for training, and questioned the unit economics behind the cheap caching rates.
-
-**Tags**: `#DeepSeek`, `#AI pricing`, `#API`, `#large language models`, `#machine learning`
-
----
-
-<a id="item-8"></a>
-## [AI memory demand raises consumer electronics prices](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
-
-Memory manufacturers are reallocating wafer capacity from DDR and LPDDR to HBM to meet AI demand, reducing supply for consumer devices and driving up prices. This shift is already affecting sub-$100 smartphones. Consumer electronics, especially low-cost smartphones, will become significantly more expensive in the next few years, impacting affordability in developing regions. It also highlights how AI infrastructure investment indirectly strains unrelated markets. Only three companies produce DRAM wafers, and HBM consumes over three times the wafer capacity per gigabyte compared to DDR or LPDDR. HBM's wafer allocation is expected to rise from 2% to 20% by the end of 2026.
+AI's demand for HBM memory is reallocating wafer capacity from DDR/LPDDR to HBM, with HBM's share rising from 2% to an expected 20% by 2026, causing consumer electronics like smartphones to become more expensive. This structural shift will increase prices for consumer electronics, particularly affecting budget devices in markets like Africa and South Asia; the memory shortage is expected to persist until at least 2030. HBM consumes over three times the wafer capacity per gigabyte compared to DDR or LPDDR, and memory manufacturers deliberately under-provision capacity to avoid overbuilding, as learned from past rival bankruptcies.
 
 rss · Simon Willison · May 22, 22:01
 
-**Background**: DRAM comes in three main types: DDR for desktops/servers, LPDDR for mobile/low-power devices, and HBM (High Bandwidth Memory) for GPUs used in AI. HBM uses 3D stacking and Through-Silicon Vias (TSVs) to provide high bandwidth, but requires significantly more wafer area per gigabyte. Memory manufacturers keep production tight to avoid oversupply, making them slow to add capacity.
+**Background**: Memory manufacturers have fixed wafer capacity split among DDR (desktops/servers), LPDDR (mobile/low-power), and HBM (high-bandwidth memory for GPUs). HBM stacks multiple DRAM dies for higher bandwidth and is essential for AI workloads. The rapid growth of AI data centers has dramatically increased HBM demand, squeezing supply for other memory types and driving up costs for consumer electronics.
 
 <details><summary>References</summary>
 <ul>
+<li><a href="https://en.wikipedia.org/wiki/HBM_memory_shortage">HBM memory shortage</a></li>
 <li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
-<li><a href="https://octopart.com/pulse/p/what-allocation-semiconductor-industry">What Is Allocation in the Semiconductor Industry? - Octopart</a></li>
-<li><a href="https://uomolab.com/en/hbm-memory-technology-deep-dive-the-memory-revolution-in-the-ai-era/">HBM Memory Technology Deep Dive: The Memory Revolution in the ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#memory`, `#hardware`, `#AI`, `#semiconductors`, `#consumer electronics`
+**Tags**: `#memory shortage`, `#HBM`, `#AI`, `#consumer electronics`, `#supply chain`
+
+---
+
+<a id="item-8"></a>
+## [Datasette Agent: AI Assistant for Data Querying](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 8.0/10
+
+Simon Willison announced the first release of Datasette Agent, an AI assistant that provides a conversational interface for querying data stored in Datasette, with optional chart generation via the datasette-agent-charts plugin. This release marks a significant milestone by integrating LLM capabilities directly into Datasette, enabling users to ask natural language questions and generate visualizations without writing SQL, which lowers the barrier for data exploration. Datasette Agent is extensible via plugins; the demo instance at agent.datasette.io uses Gemini 3.1 Flash-Lite, which is cheap and fast. Plugins already available include datasette-agent-charts (Observable Plot) and datasette-agent-openai-imagegen (ChatGPT image generation).
+
+rss · Simon Willison · May 21, 19:52
+
+**Background**: Datasette is an open-source multi-tool for exploring and publishing data, built on SQLite. LLM is a Python library and CLI tool for interacting with large language models. Datasette Agent brings these two projects together, offering a conversational interface that writes and runs SQL queries automatically based on user prompts.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://simonwillison.net/2026/May/21/datasette-agent/">Datasette Agent - simonwillison.net</a></li>
+<li><a href="https://datasette.io/">Datasette: An open source multi-tool for exploring and ...</a></li>
+<li><a href="https://github.com/datasette/datasette-agent-charts">GitHub - datasette/datasette-agent-charts: Observable Plot ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Datasette`, `#AI`, `#data analysis`, `#LLM`, `#open source`
 
 ---
 
 <a id="item-9"></a>
-## [FTC Fines Cox Media Group $930K for Fake AI Listening Service](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 8.0/10
+## [ByteDance open-sources 3B multimodal model Lance](https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A) ⭐️ 8.0/10
 
-The FTC reached settlements totaling $930,000 with Cox Media Group, MindSift, and 1010 Digital Works for falsely marketing an 'Active Listening' AI-powered advertising service that they claimed listened to consumers via smart devices but actually resold email lists. This enforcement signals that the FTC is actively policing deceptive AI marketing claims, particularly those involving privacy-invasive technologies, setting a precedent for accountability in AI-powered advertising and consumer protection. The companies' 'Active Listening' service did not actually listen to conversations or use voice data; instead, it resold email lists from other data brokers at a significant markup. The FTC also clarified that mandatory terms-of-service agreements do not constitute adequate consent for such invasive data collection.
+ByteDance has open-sourced Lance, a 3B-parameter multimodal model that unifies image/video understanding and generation under the Apache 2.0 license, with weights available on Hugging Face. Lance demonstrates that a relatively small 3B model can achieve competitive performance in both understanding and generation, potentially lowering the barrier for multimodal AI research and applications. Lance uses a dual-stream Mixture-of-Experts (MoE) architecture with Qwen2.5-VL for understanding and Wan2.2 for generation, plus modality-aware positional encoding (PE) to resolve sequence boundary ambiguity. It achieves top results on GenEval and VBench benchmarks.
 
-rss · Simon Willison · May 22, 04:48
+telegram · zaihuapd · May 22, 06:40
 
-**Background**: The 'Active Listening' concept was marketed as a service that used AI to capture real-time intent data from smart device microphones to target ads. This fed into a long-standing conspiracy theory that phones are always listening to serve ads. The FTC's action debunks this myth and reinforces that such practices would require explicit opt-in consent.
+**Background**: Multimodal models that handle both understanding and generation often suffer from capability conflict. Dual-stream architectures separate processing paths for different tasks, while modality-aware PE ensures proper encoding of mixed image, video, and text sequences. GenEval and VBench are standard benchmarks for evaluating text-to-image and video generation quality.
 
 <details><summary>References</summary>
 <ul>
+<li><a href="https://www.agentren.cn/2026/0522/15846.shtml">字节跳动开源Lance 3B：实现图像与视频理解与生成_A³·爱力方</a></li>
+<li><a href="https://kexue.fm/archives/10352">“闭门造车”之多模态思路浅谈（三）：位置编码 - 科学空间|Scientific Spaces</a></li>
+<li><a href="https://arxiv.org/abs/2310.11513">[2310.11513] GenEval: An Object-Focused Framework for ... GenEval: A Benchmark Suite for Evaluating Generative Models GenEval Benchmark | showlab/DIM | DeepWiki GenEval Benchmark Overview - emergentmind.com GenEval Benchmark Table GenEval — Image generation benchmark · Codesota | CodeSOTA</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#multimodal`, `#AI`, `#open source`, `#image generation`, `#video generation`
+
+---
+
+<a id="item-10"></a>
+## [Tencent's Ximalaya Acquisition Approved with Exclusive Rights Condition](https://mp.weixin.qq.com/s/xnx31SOS6NMozZXnHeaaQg) ⭐️ 8.0/10
+
+China's market regulator approved Tencent's acquisition of audio platform Ximalaya, but required Tencent to relinquish exclusive online audio copyrights and terminate existing exclusive contracts within a set timeframe. This decision dismantles Ximalaya's exclusive content barriers, potentially leveling the competitive landscape for other audio platforms and improving cross-platform access for users. Tencent must commit to not reaching or disguising exclusive online audio copyright arrangements in the future, and is required to phase out existing exclusive deals, though it can still pursue non-exclusive partnerships.
+
+telegram · zaihuapd · May 22, 10:33
+
+**Background**: Ximalaya is China's leading audio-sharing platform, offering podcasts, audiobooks, and live audio. Exclusive copyrights have been a key competitive strategy for platforms to attract users, but regulators have increasingly targeted such practices to promote competition and consumer choice.
+
+**Tags**: `#tencent`, `#regulation`, `#audio`, `#competition`, `#china`
+
+---
+
+<a id="item-11"></a>
+## [China cracks down on illegal cross-border securities, probes Tiger Brokers, Futu](https://t.me/zaihuapd/41525) ⭐️ 8.0/10
+
+China's eight departments issued a plan to crack down on illegal cross-border securities, futures, and fund operations, requiring existing investors to only sell and withdraw funds within a 2-year cleanup period. The CSRC has initiated investigations against Tiger Brokers, Futu, and Changqiao for conducting unapproved cross-border business. This regulatory action severely impacts cross-border fintech platforms and restricts Chinese investors' access to overseas markets, while promoting legal channels like Stock Connect, QDII, and Cross-border Wealth Management Connect. It signals China's tightening control over capital outflows and financial security. The plan sets a 2-year cleanup period during which only one-way selling and fund withdrawal are allowed for existing investors; all related domestic websites, trading software, and servers must be shut down after the period. The CSRC has issued administrative penalty notices against Tiger, Futu, and Changqiao, intending to confiscate all illegal gains and impose severe fines.
+
+telegram · zaihuapd · May 22, 13:55
+
+**Background**: Chinese investors have long used foreign brokerages like Tiger Brokers and Futu to trade Hong Kong and US stocks, bypassing China's capital controls. Legal channels for overseas investment include the Stock Connect program (allowing trading of Hong Kong stocks), QDII (Qualified Domestic Institutional Investor) funds, and the Cross-border Wealth Management Connect for residents in the Greater Bay Area. The crackdown aims to direct investors to these regulated channels.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/665528722">一文搞懂港股通开通条件及交易规则 - 知乎</a></li>
+<li><a href="https://grokipedia.com/page/qualified_domestic_institutional_investor">Qualified Domestic Institutional Investor</a></li>
+<li><a href="https://research.hktdc.com/tc/article/MTYyOTc5OTI0Ng">新版「 跨 境 理 財 通 」啓動 | 香港貿易發展局經貿研究</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#regulation`, `#fintech`, `#cross-border investment`, `#China`, `#securities`
+
+---
+
+<a id="item-12"></a>
+## [Cloudflare 25-Minute Global Outage Hits 28% of HTTP Traffic](https://t.me/zaihuapd/41527) ⭐️ 8.0/10
+
+On December 5, 2025, Cloudflare experienced a 25-minute global outage from 08:47 to 09:12 UTC, affecting approximately 28% of HTTP traffic due to a flawed WAF update intended to patch a Next.js security vulnerability (CVE-2025-55182). This outage underscores the fragility of critical internet infrastructure when security patches are deployed without sufficient testing, impacting millions of users and businesses relying on Cloudflare's CDN and security services. Only customers using Cloudflare's older FL1 proxy with the Cloudflare Managed Ruleset enabled were affected, receiving HTTP 500 errors; the root cause was a Lua nil-pointer bug triggered by a killswitch applied to an execute-action rule.
+
+telegram · zaihuapd · May 22, 16:15
+
+**Background**: Cloudflare's FL1 proxy is an older generation of its reverse proxy infrastructure, while the Managed Ruleset provides pre-configured WAF rules maintained by Cloudflare's security team. The outage occurred when a configuration change to patch a Next.js vulnerability (CVE-2025-55182) exposed a Lua nil-pointer bug in the WAF rules engine, causing request failures.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://blog.cloudflare.com/5-december-2025-outage/">Cloudflare outage on December 5, 2025</a></li>
+<li><a href="https://www.ascii.co.uk/news/article/news-20251208-71fe2ccb/cloudflare-25-minute-outage-lua-nil-bug-in-waf-rules-engine">Cloudflare 25-Minute Outage: Lua Nil Bug in WAF Rules Engine</a></li>
+<li><a href="https://convergedigest.com/cloudflare-outage-on-december-5-hits-28-of-global-http-traffic/">Cloudflare Outage on December 5 Hits 28% of Global HTTP ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Cloudflare`, `#outage`, `#WAF`, `#security`, `#Next.js`
+
+---
+
+<a id="item-13"></a>
+## [Shipping a laptop to a Ugandan refugee camp: bureaucratic ordeal](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 7.0/10
+
+The author recounts the complex bureaucracy and corruption encountered when trying to ship a laptop to a refugee camp in Uganda, involving unexpected taxes, bribes, and logistical hurdles. This story highlights systemic barriers to delivering technology aid to underserved regions, revealing how corruption and inefficiency hinder development and increase costs for well-intentioned efforts. The author initially assumed standard shipping would work, but faced demands for import taxes, storage fees, and bribes, eventually requiring a local contact named Django to navigate the system.
+
+hackernews · lexandstuff · May 22, 21:36 · [Discussion](https://news.ycombinator.com/item?id=48241997)
+
+**Background**: International shipping of electronics typically involves customs declarations and taxes, but in many developing countries, additional bureaucratic layers and corruption are common. The author's experience illustrates the disconnect between Western logistical expectations and on-the-ground realities in countries like Uganda.
+
+**Discussion**: Commenters noted the systemic corruption, praised Django's resilience, and suggested alternatives like hand-carrying items. One Ugandan commenter acknowledged the broken system but critiqued the author's hubris in assuming Western methods would work.
+
+**Tags**: `#developing countries`, `#logistics`, `#bureaucracy`, `#corruption`, `#tech for good`
+
+---
+
+<a id="item-14"></a>
+## [Why Japanese companies diversify so much](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 7.0/10
+
+This article explains that Japanese companies' extensive diversification is driven by lifetime employment, firm-specific skills, and governance that prioritizes employee interests over shareholders. It provides a cultural and structural explanation for a distinctive feature of Japanese corporate strategy, contrasting with Western focus on shareholder value and specialization. The author argues that the system only works if the company is insulated from outside pressure, allowing it to exist for its employees rather than shareholders.
+
+hackernews · d0ks · May 22, 15:22 · [Discussion](https://news.ycombinator.com/item?id=48237163)
+
+**Background**: Japanese lifetime employment (shushin koyo) is a system where employees expect to stay with one company until retirement, and companies invest heavily in firm-specific skills. This encourages diversification as a way to retain and redeploy employees across different business lines.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://jobs.guidable.co/en/articles/what-is-the-current-state-of-japans-lifetime-employment-system">What Is the Current State of Japan ’s Lifetime | Guidable Jobs</a></li>
+<li><a href="https://www.zenterninternships.com/blog/how-japanese-companies-handle-skill-development">How Japanese Companies Handle Skill Development</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters note that Western companies also diversified in the past, and that the Japanese system creates low job fluidity, making mid-career hiring difficult. Some East Asian readers caution against romanticizing the model.
+
+**Tags**: `#business-culture`, `#organizational-structure`, `#japan`, `#corporate-strategy`, `#management`
+
+---
+
+<a id="item-15"></a>
+## [Deno 2.8 released with new pack command and permission debate](https://deno.com/blog/v2.8) ⭐️ 7.0/10
+
+Deno 2.8 introduces a new `deno pack` command for packaging applications, along with incremental improvements to performance and the permission model. The release continues to emphasize security and native TypeScript support. This release fuels ongoing community debate about Deno's unique permission model versus the ecosystem convenience of Node.js and the speed of Bun. The comparison highlights the evolving JavaScript runtime landscape where security, performance, and developer experience are key differentiators. The `deno pack` command simplifies packaging Deno projects without requiring external tools. The permission model remains granular but does not extend to module-level controls, a point some users wish for.
+
+hackernews · roflcopter69 · May 22, 11:23 · [Discussion](https://news.ycombinator.com/item?id=48234380)
+
+**Background**: Deno is a JavaScript/TypeScript runtime built on V8 and Rust, designed to address Node.js shortcomings such as security and module management. Its permission model requires explicit opt-in for file, network, and environment access, enhancing security but sometimes complicating usage. Bun, a newer runtime, focuses on speed and all-in-one tooling, while Node.js remains the established standard.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://docs.deno.com/runtime/fundamentals/security/">Security and permissions - Deno</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community sentiment is generally positive toward Deno's security and ideology, but users question its ecosystem growth relative to Bun and Node. Some praise the `deno pack` addition, while others express concern about funding sustainability and feature parity.
+
+**Tags**: `#Deno`, `#JavaScript runtime`, `#TypeScript`, `#permission model`, `#Node.js`
+
+---
+
+<a id="item-16"></a>
+## [Kanbots: open-source Kanban app runs parallel AI agents on every card](https://www.kanbots.dev/) ⭐️ 7.0/10
+
+Kanbots is a newly launched open-source desktop Kanban application that allows users to dispatch parallel AI agents on each task card, each operating in its own Git worktree, and supports an autopilot mode where agents automatically split and execute work. This tool pushes the boundaries of project management by integrating AI agents directly into Kanban workflows, potentially enabling massive task parallelization. However, it sparks debate about whether it violates core Kanban principles like limiting work-in-progress and respecting flow. Kanbots is local-first and serverless, storing everything in a .kanbots/ directory next to the repository (SQLite, configs, worktrees), with no cloud account or telemetry. Each agent runs in an isolated worktree, and the autopilot feature uses personas to split and review work autonomously.
+
+hackernews · vitriapp · May 22, 18:17 · [Discussion](https://news.ycombinator.com/item?id=48239413)
+
+**Background**: Kanban is an Agile project management method that visualizes workflow, limits work-in-progress (WIP), and focuses on continuous delivery. Traditional Kanban boards manage card flow to avoid overloading the system. This new tool challenges that by encouraging parallel execution on many cards simultaneously.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.kanbots.dev/">KanBots — a kanban that runs parallel agents</a></li>
+<li><a href="https://topaihubs.com/articles/the-rise-of-parallel-ai-agents-in-open-source-kanban-a-new-era-for-productivity">The Rise of Parallel AI Agents in Open Source Kanban: A New ...</a></li>
+<li><a href="https://teamhood.com/kanban-resources/kanban-principles/">4 Kanban Principles & 6 Practices for Better Workflows - Teamhood What is Kanban - Principles and Implementation - GeeksforGeeks Kanban Principles: The 4 Core Principles & 6 Key Practices 6 Core Kanban principles — and How to Apply Them - Miro Core Principles of Kanban: A Complete Guide for Agile Teams Kanban Principles & Practices: Guide to Agile Workflow</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members express mixed feelings: some criticize the tool for contradicting Kanban's core principles by encouraging parallel work, while others are concerned about the feasibility of reviewing AI-generated code and managing isolated worktrees. There is also comparison to Vibe Kanban, which faced abandonment issues.
+
+**Tags**: `#kanban`, `#AI agents`, `#open-source`, `#project management`
+
+---
+
+<a id="item-17"></a>
+## [FBI Director's Apparel Site Hit by ClickFix Malware Attack](https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware) ⭐️ 7.0/10
+
+The FBI director's apparel website, BasedApparel.com, was compromised with a ClickFix attack that tricks visitors into downloading malware. This incident underscores the real-world prevalence of ClickFix attacks and highlights that even high-profile websites can be compromised, posing a significant security risk to visitors. The ClickFix attack specifically targeted macOS users by presenting a fake 'verify you are human' prompt that would download a malicious payload if clicked.
+
+hackernews · bilalq · May 23, 00:34 · [Discussion](https://news.ycombinator.com/item?id=48243293)
+
+**Background**: A ClickFix attack is a social engineering technique where attackers trick users into running a system command to fix a nonexistent problem. In this case, the fake CAPTCHA prompt deceives visitors into executing a command that downloads malware. Such attacks have been increasingly reported by security firms like Microsoft.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/">Think before you Click ( Fix ): Analyzing the ClickFix social engineering...</a></li>
+<li><a href="https://hoxhunt.com/blog/what-is-a-clickfix-attack">What Is a ClickFix Attack ? What Security Teams Need to... - Hoxhunt</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments expressed surprise and humor at the situation, with some questioning why the FBI director has a merchandise store. One user clarified that the store was owned by Kash Patel before he became FBI director, and the attack targeted macOS users.
+
+**Tags**: `#security`, `#malware`, `#phishing`, `#FBI`, `#ClickFix`
+
+---
+
+<a id="item-18"></a>
+## [FTC Fines Cox Media Group $1M for Fake AI Listening Ads](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 7.0/10
+
+The FTC ordered Cox Media Group, MindSift, and 1010 Digital Works to pay nearly $1 million for falsely claiming their 'Active Listening' AI service could target ads based on real-time voice data from smart devices. This settlement marks a significant enforcement action against deceptive AI marketing, reinforcing that companies cannot mislead consumers about invasive surveillance capabilities without facing penalties. The FTC revealed that the service never actually listened to conversations; instead, the companies resold email lists from data brokers at a high markup. The FTC also warned that burying opt-in consent in terms of service does not constitute adequate consent.
+
+rss · Simon Willison · May 22, 04:48
+
+**Background**: For years, a conspiracy theory has persisted that smartphones and smart speakers secretly listen to conversations for ad targeting. Cox Media Group's 2024 marketing materials for 'Active Listening' fueled these fears, claiming to use voice data for hyper-targeted ads. The FTC investigation debunked the technical feasibility and revealed the claims were fraudulent.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.wired.com/story/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/">‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work ...</a></li>
 <li><a href="https://thecyberexpress.com/ftc-ai-powered-active-listening-case/">AI-Powered Marketing Service “Active Listening” Deceived ...</a></li>
 <li><a href="https://cipaworld.com/2026/05/21/ftc-to-require-cox-media-group-two-other-firms-to-pay-nearly-1-million-to-settle-charges-they-deceived-customers-about-active-listening-ai-powered-marketing-service/">FTC Settles with Marketing Firms for Deceptive AI Advertising</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#privacy`, `#FTC`, `#regulation`, `#ethics`
+**Tags**: `#AI`, `#privacy`, `#FTC`, `#advertising`, `#deception`
 
 ---
 
-<a id="item-10"></a>
-## [China Cracks Down on Illegal Cross-Border Securities, Investigating Tiger, Futu, Changqiao](https://mp.weixin.qq.com/s?__biz=MzA4NzAzMDgwMw==&amp;mid=2651090403&amp;idx=3&amp;sn=bca72a940ac72bef356f29b5b9576ac1&amp;chksm=8a1670281e2bc67d2df3608a313ba9fdaf0fcd2f43ce44475c6bf273b386af2e4f9d8e8e2e2b&amp;scene=0&amp;xtrack=1) ⭐️ 8.0/10
+<a id="item-19"></a>
+## [Zhipu AI Launches GLM-5.1-HighSpeed at 400 Tokens/s](https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1-highspeed) ⭐️ 7.0/10
 
-China's eight government departments jointly issued a remediation plan to crack down on illegal cross-border securities, futures, and fund operations, allowing only existing investors to sell and withdraw funds. The China Securities Regulatory Commission has filed investigations against Tiger Brokers, Futu, and Changqiao for illegal cross-border business operations. This regulatory action targets major fintech platforms that facilitate cross-border investing for mainland Chinese residents, affecting millions of users. It signals a stricter enforcement of capital controls and aims to channel offshore investments through legal avenues like Hong Kong Stock Connect and QDII. The plan sets a two-year centralized rectification period to clear existing business, after which domestic websites, trading software, and servers must be fully shut down. The CSFC has issued administrative penalty notices against Tiger, Futu, and Changqiao, intending to confiscate all illegal gains and impose severe penalties for unlicensed securities brokerage and margin trading.
+Zhipu AI has released GLM-5.1-HighSpeed, a high-speed version of its GLM-5.1 model, achieving an output speed of 400 tokens per second, and is now available to select enterprise customers via the BigModel open platform. This significant speed improvement enables real-time applications such as coding agents, voice assistants, and live customer service, positioning GLM-5.1-HighSpeed as a competitive option for low-latency AI tasks in the enterprise market. The model supports Function Call, JSON structured output, and the Model Context Protocol (MCP), making it ideal for low-latency scenarios like multi-turn code generation, real-time UI building, and operational Q&A; however, access is restricted to enterprise customers.
 
-telegram · zaihuapd · May 22, 08:26
+telegram · zaihuapd · May 22, 04:45
 
-**Background**: Cross-border securities trading by unlicensed foreign platforms has been a gray area in China, where capital controls restrict outward investments. Legal channels for mainland investors to access overseas markets include the Hong Kong Stock Connect (for stocks) and the Qualified Domestic Institutional Investor (QDII) scheme. The targeted platforms, such as Tiger Brokers and Futu, have popular apps that allow Chinese users to trade US and Hong Kong stocks, but they lack necessary regulatory approvals in China.
+**Background**: GLM-5.1 is a large language model by Zhipu AI, one of China's leading AI companies. Function Calling allows the model to invoke external APIs or functions to perform tasks beyond text generation. MCP (Model Context Protocol) is a standardized protocol that simplifies integration with external tools and data sources, similar to a universal adapter for AI models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://baike.baidu.com/item/港股通/13611865">港股通（内地与香港股票市场交易互联互通机制）_百度百科 港股通交易规则全解：从时间、机制到费用，一文看懂实操要点 沪港通 - 上海证券交易所 港股通是什么?开通条件与流程全解析 (2025 最新版)|内地股市|融资融券... 港股通开户指南：条件、线上流程与费用全解析（2025版） 科普：什么是港股通？ “ 港股通 ”是沪深港通机制的重要组成部分，它为...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Qualified_Domestic_Institutional_Investor">Qualified Domestic Institutional Investor - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+<li><a href="https://www.getfrontline.ai/glossary/what-is-function-calling">Frontline | Glossary | Function Calling</a></li>
+<li><a href="https://gradientflow.com/expanding-ai-horizons-the-rise-of-function-calling-in-llms/">Expanding AI Horizons: The Rise of Function Calling ... - Gradient Flow</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#regulation`, `#fintech`, `#cross-border investing`, `#China`, `#securities`
+**Tags**: `#GLM`, `#AI model`, `#low-latency`, `#enterprise`, `#function call`
 
 ---
 
-<a id="item-11"></a>
-## [Microsoft Internally Rolls Out Claude Code, Pitches vs Copilot](https://t.me/zaihuapd/41535) ⭐️ 8.0/10
+<a id="item-20"></a>
+## [Microsoft widely promotes Claude Code internally, encourages non-technical staff](https://t.me/zaihuapd/41535) ⭐️ 7.0/10
 
-Microsoft is widely deploying Anthropic's Claude Code across its key engineering teams, including CoreAI and the Experiences & Devices division, and encouraging non-technical employees to use it for prototyping. Engineers are required to use both Claude Code and GitHub Copilot and provide comparative feedback. This move signals a major shift in Microsoft's AI strategy, as it internally adopts a competitor's coding tool alongside its own Copilot, validating Claude Code's capabilities. It also highlights the broader trend of AI-assisted software development becoming accessible to non-technical users. Microsoft's software engineers must now use both Claude Code and GitHub Copilot and provide comparative feedback, though Microsoft commercially sells Copilot to customers. Claude Code is an agentic coding tool that can read codebases, edit files, run commands, and deliver committed code, making it accessible even to those without an engineering background.
+Microsoft is broadly rolling out Anthropic's Claude Code across its core engineering teams, including the CoreAI team and the Experiences & Devices division responsible for Windows, Microsoft 365, and Outlook. The company is requiring software engineers to use both Claude Code and GitHub Copilot and provide comparative feedback, while also encouraging employees without programming experience to use Claude Code for prototyping. This move signals a significant shift in Microsoft's AI coding strategy, as it embraces a competitor's tool over its own GitHub Copilot in some contexts. It could reshape the AI-assisted development landscape and influence how other enterprises adopt multiple AI coding assistants for different user groups. The promotion covers not only experienced engineers but also non-technical staff for prototyping. Microsoft engineers are now required to provide direct feedback comparing Claude Code and GitHub Copilot, which are competing AI coding tools from Anthropic and Microsoft respectively.
 
 telegram · zaihuapd · May 23, 06:05
 
-**Background**: Claude Code is an AI-powered coding tool developed by Anthropic, the company behind the Claude series of large language models. Unlike traditional code assistants, Claude Code acts as an agent that can understand an entire codebase, make changes across files, and run tests. GitHub Copilot is Microsoft's own AI pair programmer powered by OpenAI's models. Microsoft's decision to internally test a competing product suggests a pragmatic approach to evaluating best-in-class AI tools.
+**Background**: Claude Code is an AI-powered coding agent developed by Anthropic, the company behind the Claude large language model. GitHub Copilot, Microsoft's own AI coding assistant, is integrated into its development ecosystem. By testing both tools internally, Microsoft aims to evaluate their relative strengths and potentially improve its own offerings.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/Claude_Code">Claude Code</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
 <li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI coding`, `#Microsoft`, `#Claude Code`, `#GitHub Copilot`, `#industry trends`
+**Tags**: `#微软`, `#Claude Code`, `#AI编程`, `#GitHub Copilot`, `#行业动态`
 
 ---
