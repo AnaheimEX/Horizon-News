@@ -406,6 +406,20 @@ class HorizonOrchestrator:
         if len(items) <= 1:
             return items
 
+        # Conservative guardrails to avoid over-aggressive deduplication:
+        # 1) Skip semantic dedup for very small sets.
+        # 2) Keep at least N items from each duplicate group.
+        # 3) Cap global drop ratio.
+        MIN_ITEMS_FOR_SEMANTIC_DEDUP = 6
+        MIN_KEEP_PER_DUP_GROUP = 2
+        MAX_GLOBAL_DROP_RATIO = 0.35
+
+        if len(items) < MIN_ITEMS_FOR_SEMANTIC_DEDUP:
+            self.console.print(
+                f"[dim]dedup: skipped semantic dedup for small set ({len(items)} < {MIN_ITEMS_FOR_SEMANTIC_DEDUP})[/dim]"
+            )
+            return items
+
         from .ai.prompts import TOPIC_DEDUP_SYSTEM, TOPIC_DEDUP_USER
         from .ai.utils import parse_json_response
 
@@ -436,20 +450,32 @@ class HorizonOrchestrator:
         if not duplicate_groups:
             return items
 
-        # Build a set of indices to drop (all non-primary duplicates)
-        drop_indices: set[int] = set()
+        # Build a set of candidate indices to drop (non-primary duplicates),
+        # while preserving at least MIN_KEEP_PER_DUP_GROUP items per group.
+        candidate_drop_indices: set[int] = set()
         for group in duplicate_groups:
             if not isinstance(group, list) or len(group) < 2:
                 continue
-            primary_idx = group[0]
-            if primary_idx < 0 or primary_idx >= len(items):
+
+            valid_indices = [
+                idx for idx in group
+                if isinstance(idx, int) and 0 <= idx < len(items)
+            ]
+            if len(valid_indices) < 2:
                 continue
+
+            keep_count = min(MIN_KEEP_PER_DUP_GROUP, len(valid_indices))
+            keep_indices = set(valid_indices[:keep_count])
+            primary_idx = valid_indices[0]
             primary = items[primary_idx]
-            for dup_idx in group[1:]:
-                if not isinstance(dup_idx, int) or dup_idx < 0 or dup_idx >= len(items):
+
+            for dup_idx in valid_indices[1:]:
+                if dup_idx in keep_indices:
+                    self.console.print(
+                        f"   [dim]dedup: keep [{dup_idx}] {items[dup_idx].title} (group-guard)[/dim]"
+                    )
                     continue
-                if dup_idx == primary_idx:
-                    continue
+
                 dup = items[dup_idx]
                 # Merge comments/content from the duplicate into the primary
                 if dup.content:
@@ -460,7 +486,17 @@ class HorizonOrchestrator:
                     f"   [dim]dedup: keep [{primary_idx}] {primary.title}[/dim]\n"
                     f"   [dim]       drop [{dup_idx}] {dup.title}[/dim]"
                 )
-                drop_indices.add(dup_idx)
+                candidate_drop_indices.add(dup_idx)
+
+        if not candidate_drop_indices:
+            return items
+
+        max_drops = max(1, int(len(items) * MAX_GLOBAL_DROP_RATIO))
+        drop_indices = set(sorted(candidate_drop_indices)[:max_drops])
+        if len(candidate_drop_indices) > len(drop_indices):
+            self.console.print(
+                f"[dim]dedup: drop cap applied {len(drop_indices)}/{len(candidate_drop_indices)} (max {MAX_GLOBAL_DROP_RATIO:.0%})[/dim]"
+            )
 
         return [item for i, item in enumerate(items) if i not in drop_indices]
 
