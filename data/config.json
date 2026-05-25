@@ -73,6 +73,12 @@
         "url": "https://news.google.com/rss/search?q=site%3Afamitsu.com%20%E3%82%B2%E3%83%BC%E3%83%A0&hl=ja&gl=JP&ceid=JP:ja",
         "enabled": true,
         "category": "games"
+      },
+      {
+        "name": "GAME Watch via Google News",
+        "url": "https://news.google.com/rss/search?q=site%3Agame.watch.impress.co.jp%20%E3%82%B2%E3%83%BC%E3%83%A0&hl=ja&gl=JP&ceid=JP:ja",
+        "enabled": true,
+        "category": "games"
       }
     ],
     "reddit": {
